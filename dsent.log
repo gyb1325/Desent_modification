@@ -1,0 +1,2312 @@
+Config::allocate
+Config::readFile
+Config::readFile - End
+Config::allocate - End
+Config::constructTechModel
+Standard cell library creation for tech model Bulk45LVT
+Standard cell P-to-N ratio (Beta) = 1.36364
+Standard cell NMOS unit width = 1.6e-07
+Standard cell PMOS unit width = 2.18182e-07
+Standard cell active height = 1.25714e-06
+Standard cell total height = 1.76e-06
+ModelGen::createStdCell -> INV
+=== INV_X1 ===
+INV_X1->Area->Active=7.04e-13
+INV_X1->Area->Metal1Wire=7.04e-13
+INV_X1->Leakage->!A=2.51189e-07
+INV_X1->Leakage->A=1.82181e-07
+INV_X1->Cap->A=1.25714e-15
+INV_X1->Cap->Y=1.01344e-15
+INV_X1->DriveRes->Y=2068.18
+INV_X1->Delay->A_to_Y=1.45251e-12
+ModelGen::createStdCell -> NAND2
+=== NAND2_X1 ===
+NAND2_X1->Area->Active=1.056e-12
+NAND2_X1->Leakage->!A!B=2.51189e-07
+NAND2_X1->Leakage->!AB=2.51189e-07
+NAND2_X1->Leakage->A!B=2.51189e-07
+NAND2_X1->Leakage->AB=2.8111e-07
+NAND2_X1->Cap->A=1.25714e-15
+NAND2_X1->Cap->B=1.25714e-15
+NAND2_X1->Cap->Y=2.02687e-15
+NAND2_X1->DriveRes->Y=2680.68
+NAND2_X1->Delay->A_to_Y=3.76535e-12
+NAND2_X1->Delay->B_to_Y=3.76535e-12
+ModelGen::createStdCell -> NOR2
+=== NOR2_X1 ===
+NOR2_X1->ActiveArea=1.056e-12
+NOR2_X1->Leakage->!A!B=5.02377e-07
+NOR2_X1->Leakage->!AB=1.45362e-07
+NOR2_X1->Leakage->A!B=2.16535e-07
+NOR2_X1->Leakage->AB=5.02377e-08
+NOR2_X1->Cap->A_Cap=1.25714e-15
+NOR2_X1->Cap->B_Cap=1.25714e-15
+NOR2_X1->Cap->Y_Cap=2.02687e-15
+NOR2_X1->DriveRes->Y=2784.09
+NOR2_X1->Delay->A_to_Y=3.9106e-12
+NOR2_X1->Delay->B_to_Y=3.9106e-12
+ModelGen::createStdCell -> MUX2
+=== MUX2_X1 ===
+MUX2_X1->ActiveArea=2.464e-12
+MUX2_X1->Leakage->!A!B!S0=9.35748e-07
+MUX2_X1->Leakage->!A!BS0=7.34797e-07
+MUX2_X1->Leakage->!AB!S0=9.35748e-07
+MUX2_X1->Leakage->!ABS0=4.49745e-07
+MUX2_X1->Leakage->A!B!S0=6.50696e-07
+MUX2_X1->Leakage->A!BS0=8.03805e-07
+MUX2_X1->Leakage->AB!S0=3.42231e-07
+MUX2_X1->Leakage->ABS0=3.42231e-07
+MUX2_X1->Cap->A=6.28571e-16
+MUX2_X1->Cap->B=6.28571e-16
+MUX2_X1->Cap->S0=9.6989e-16
+MUX2_X1->Cap->S0_b=1.09251e-15
+MUX2_X1->Cap->Y_b=3.80232e-15
+MUX2_X1->Cap->Y=1.01344e-15
+MUX2_X1->DriveRes->Y=2068.18
+MUX2_X1->Delay->A_to_Y=1.93526e-11
+MUX2_X1->Delay->B_to_Y=1.93526e-11
+MUX2_X1->Delay->S0_to_Y=2.50869e-11
+ModelGen::createStdCell -> XOR2
+=== XOR2_X1 ===
+XOR2_X1->ActiveArea=2.464e-12
+XOR2_X1->Leakage->!A!B=7.99015e-07
+XOR2_X1->Leakage->!AB=8.44657e-07
+XOR2_X1->Leakage->A!B=8.44657e-07
+XOR2_X1->Leakage->AB=4.78818e-07
+XOR2_X1->Cap->A=1.88571e-15
+XOR2_X1->Cap->B=1.88571e-15
+XOR2_X1->Cap->A=1.89344e-15
+XOR2_X1->Cap->B=1.89344e-15
+XOR2_X1->Cap->Y=4.05375e-15
+XOR2_X1->DriveRes->Y=3396.59
+XOR2_X1->Delay->A_to_Y=1.49694e-11
+XOR2_X1->Delay->B_to_Y=1.49694e-11
+ModelGen::createStdCell -> ADDF
+=== ADDF_X1 ===
+ADDF_X1->Area->Active=6.688e-12
+ADDF_X1->Area->Metal1Wire=6.688e-12
+ADDF_X1->Leakage->!A!B!CI=2.03704e-06
+ADDF_X1->Leakage->!A!BCI=2.19015e-06
+ADDF_X1->Leakage->!AB!CI=2.43195e-06
+ADDF_X1->Leakage->!ABCI=1.73638e-06
+ADDF_X1->Leakage->A!B!CI=2.43195e-06
+ADDF_X1->Leakage->A!BCI=1.73638e-06
+ADDF_X1->Leakage->AB!CI=1.49458e-06
+ADDF_X1->Leakage->ABCI=1.64769e-06
+ADDF_X1->Cap->A=1.30654e-15
+ADDF_X1->Cap->B=1.30654e-15
+ADDF_X1->Cap->CI=1.59846e-15
+ADDF_X1->Cap->A_b=8.0059e-16
+ADDF_X1->Cap->B_b=8.0059e-16
+ADDF_X1->Cap->CI_b=1.09251e-15
+ADDF_X1->Cap->P=3.73027e-15
+ADDF_X1->Cap->P_b=1.26487e-15
+ADDF_X1->Cap->S=2.54518e-15
+ADDF_X1->Cap->CP=2.52973e-15
+ADDF_X1->Cap->G=2.52973e-15
+ADDF_X1->Cap->CO=2.02687e-15
+ADDF_X1->DriveRes->S=6793.18
+ADDF_X1->DriveRes->CO=2680.68
+ADDF_X1->Delay->A_to_S=5.24771e-11
+ADDF_X1->Delay->B_to_S=5.24771e-11
+ADDF_X1->Delay->CI_to_S=1.77161e-11
+ADDF_X1->Delay->A_to_CO=5.00339e-11
+ADDF_X1->Delay->B_to_CO=5.00339e-11
+ADDF_X1->Delay->CI_to_CO=1.31644e-11
+ModelGen::createStdCell -> DFFQ
+=== DFFQ_X1 ===
+DFFQ_X1->Area->Active=5.28e-12
+DFFQ_X1->Area->Metal1Wire=5.28e-12
+DFFQ_X1->Leakage->!D!CK!Q=1.44746e-06
+DFFQ_X1->Leakage->!D!CKQ=1.75827e-06
+DFFQ_X1->Leakage->!DCK!Q=1.44746e-06
+DFFQ_X1->Leakage->!DCKQ=1.99074e-06
+DFFQ_X1->Leakage->D!CK!Q=1.51748e-06
+DFFQ_X1->Leakage->D!CKQ=1.78979e-06
+DFFQ_X1->Leakage->DCK!Q=1.28502e-06
+DFFQ_X1->Leakage->DCKQ=1.78979e-06
+DFFQ_X1->Cap->D=3.2e-16
+DFFQ_X1->Cap->D_b=1.07972e-15
+DFFQ_X1->Cap->M_b=2.80346e-15
+DFFQ_X1->Cap->M=1.58487e-15
+DFFQ_X1->Cap->M_i=2.80346e-15
+DFFQ_X1->Cap->Q_b=2.21344e-15
+DFFQ_X1->Cap->Q=1.01344e-15
+DFFQ_X1->Cap->CK=3.2e-16
+DFFQ_X1->Cap->CK_b=1.71972e-15
+DFFQ_X1->Cap->CK_i=1.39972e-15
+DFFQ_X1->DriveRes->Q=2068.18
+DFFQ_X1->Delay->D_Setup=2.38203e-11
+DFFQ_X1->Delay->CK_to_Q=3.85595e-11
+ModelGen::createStdCell -> LATQ
+=== LATQ_X1 ===
+LATQ_X1->Area->Active=3.168e-12
+LATQ_X1->Area->Metal1Wire=3.168e-12
+LATQ_X1->Leakage->!D!G!Q=1.03622e-06
+LATQ_X1->Leakage->!D!GQ=1.50713e-06
+LATQ_X1->Leakage->!DG!Q=8.44609e-07
+LATQ_X1->Leakage->D!G!Q=7.1368e-07
+LATQ_X1->Leakage->D!GQ=1.14608e-06
+LATQ_X1->Leakage->DGQ=9.45133e-07
+LATQ_X1->Cap->D=3.2e-16
+LATQ_X1->Cap->D_b=1.07972e-15
+LATQ_X1->Cap->Q_i=2.80346e-15
+LATQ_X1->Cap->Q_b=2.21344e-15
+LATQ_X1->Cap->Q=1.01344e-15
+LATQ_X1->Cap->G=7.55276e-16
+LATQ_X1->Cap->G_b=9.64447e-16
+LATQ_X1->DriveRes->Q=2068.18
+LATQ_X1->Delay->D_to_Q=2.70746e-11
+LATQ_X1->Delay->G_to_Q=2.64256e-11
+ModelGen::createStdCell -> OR2
+=== OR2_X1 ===
+OR2_X1->ActiveArea=1.408e-12
+OR2_X1->Leakage->!A!B=6.84558e-07
+OR2_X1->Leakage->!AB=3.47128e-07
+OR2_X1->Leakage->A!B=3.94102e-07
+OR2_X1->Leakage->AB=3.01427e-07
+OR2_X1->Cap->A_Cap=8.29714e-16
+OR2_X1->Cap->B_Cap=8.29714e-16
+OR2_X1->Cap->Y_b_Cap=2.7711e-15
+OR2_X1->Cap->Y_Cap=1.01344e-15
+OR2_X1->DriveRes->Y=2068.18
+OR2_X1->Delay->A_to_Y=9.55326e-12
+OR2_X1->Delay->B_to_Y=9.55326e-12
+ModelGen::createStdCell -> AND2
+=== AND2_X1 ===
+AND2_X1->ActiveArea=1.408e-12
+AND2_X1->Leakage->!A!B=5.02378e-07
+AND2_X1->Leakage->!AB=5.02378e-07
+AND2_X1->Leakage->A!B=5.02378e-07
+AND2_X1->Leakage->AB=3.22736e-07
+AND2_X1->Cap->A=6.28571e-16
+AND2_X1->Cap->B=6.28571e-16
+AND2_X1->Cap->Y=2.52973e-15
+AND2_X1->Cap->Y=1.01344e-15
+AND2_X1->DriveRes->Y=2068.18
+AND2_X1->Delay->A_to_Y=1.08515e-11
+AND2_X1->Delay->B_to_Y=1.08515e-11
+ModelGen::createStdCell -> INV
+=== INV_X1.4 ===
+INV_X1.4->Area->Active=1.056e-12
+INV_X1.4->Area->Metal1Wire=1.056e-12
+INV_X1.4->Leakage->!A=5.02377e-07
+INV_X1.4->Leakage->A=2.55053e-07
+INV_X1.4->Cap->A=1.76e-15
+INV_X1.4->Cap->Y=1.5743e-15
+INV_X1.4->DriveRes->Y=1477.27
+INV_X1.4->Delay->A_to_Y=1.61169e-12
+ModelGen::createStdCell -> NAND2
+=== NAND2_X1.4 ===
+NAND2_X1.4->Area->Active=1.76e-12
+NAND2_X1.4->Leakage->!A!B=5.02377e-07
+NAND2_X1.4->Leakage->!AB=5.02377e-07
+NAND2_X1.4->Leakage->A!B=5.02377e-07
+NAND2_X1.4->Leakage->AB=3.93554e-07
+NAND2_X1.4->Cap->A=1.76e-15
+NAND2_X1.4->Cap->B=1.76e-15
+NAND2_X1.4->Cap->Y=3.14861e-15
+NAND2_X1.4->DriveRes->Y=1914.77
+NAND2_X1.4->Delay->A_to_Y=4.178e-12
+NAND2_X1.4->Delay->B_to_Y=4.178e-12
+ModelGen::createStdCell -> NOR2
+=== NOR2_X1.4 ===
+NOR2_X1.4->ActiveArea=1.76e-12
+NOR2_X1.4->Leakage->!A!B=1.00475e-06
+NOR2_X1.4->Leakage->!AB=2.03507e-07
+NOR2_X1.4->Leakage->A!B=3.03149e-07
+NOR2_X1.4->Leakage->AB=1.00475e-07
+NOR2_X1.4->Cap->A_Cap=1.76e-15
+NOR2_X1.4->Cap->B_Cap=1.76e-15
+NOR2_X1.4->Cap->Y_Cap=3.14861e-15
+NOR2_X1.4->DriveRes->Y=1988.64
+NOR2_X1.4->Delay->A_to_Y=4.33917e-12
+NOR2_X1.4->Delay->B_to_Y=4.33917e-12
+ModelGen::createStdCell -> MUX2
+=== MUX2_X1.4 ===
+MUX2_X1.4->ActiveArea=2.816e-12
+MUX2_X1.4->Leakage->!A!B!S0=1.00862e-06
+MUX2_X1.4->Leakage->!A!BS0=8.21194e-07
+MUX2_X1.4->Leakage->!AB!S0=1.00862e-06
+MUX2_X1.4->Leakage->!ABS0=7.73786e-07
+MUX2_X1.4->Leakage->A!B!S0=9.61211e-07
+MUX2_X1.4->Leakage->A!BS0=1.06852e-06
+MUX2_X1.4->Leakage->AB!S0=4.52458e-07
+MUX2_X1.4->Leakage->ABS0=4.52458e-07
+MUX2_X1.4->Cap->A=8.8e-16
+MUX2_X1.4->Cap->B=8.8e-16
+MUX2_X1.4->Cap->S0=1.32e-15
+MUX2_X1.4->Cap->S0_b=1.40315e-15
+MUX2_X1.4->Cap->Y_b=4.90861e-15
+MUX2_X1.4->Cap->Y=1.5743e-15
+MUX2_X1.4->DriveRes->Y=1477.27
+MUX2_X1.4->Delay->A_to_Y=1.81175e-11
+MUX2_X1.4->Delay->B_to_Y=1.81175e-11
+MUX2_X1.4->Delay->S0_to_Y=2.38634e-11
+ModelGen::createStdCell -> XOR2
+=== XOR2_X1.4 ===
+XOR2_X1.4->ActiveArea=3.872e-12
+XOR2_X1.4->Leakage->!A!B=9.1767e-07
+XOR2_X1.4->Leakage->!AB=1.38347e-06
+XOR2_X1.4->Leakage->A!B=1.38347e-06
+XOR2_X1.4->Leakage->AB=6.70346e-07
+XOR2_X1.4->Cap->A=2.64e-15
+XOR2_X1.4->Cap->B=2.64e-15
+XOR2_X1.4->Cap->A=2.54715e-15
+XOR2_X1.4->Cap->B=2.54715e-15
+XOR2_X1.4->Cap->Y=6.29721e-15
+XOR2_X1.4->DriveRes->Y=2426.14
+XOR2_X1.4->Delay->A_to_Y=1.58029e-11
+XOR2_X1.4->Delay->B_to_Y=1.58029e-11
+ModelGen::createStdCell -> ADDF
+=== ADDF_X1.4 ===
+ADDF_X1.4->Area->Active=7.392e-12
+ADDF_X1.4->Area->Metal1Wire=7.392e-12
+ADDF_X1.4->Leakage->!A!B!CI=2.22069e-06
+ADDF_X1.4->Leakage->!A!BCI=2.328e-06
+ADDF_X1.4->Leakage->!AB!CI=2.59436e-06
+ADDF_X1.4->Leakage->!ABCI=2.16661e-06
+ADDF_X1.4->Leakage->A!B!CI=2.59436e-06
+ADDF_X1.4->Leakage->A!BCI=2.16661e-06
+ADDF_X1.4->Leakage->AB!CI=1.90025e-06
+ADDF_X1.4->Leakage->ABCI=2.00756e-06
+ADDF_X1.4->Cap->A=1.76e-15
+ADDF_X1.4->Cap->B=1.76e-15
+ADDF_X1.4->Cap->CI=2.2e-15
+ADDF_X1.4->Cap->A_b=9.63151e-16
+ADDF_X1.4->Cap->B_b=9.63151e-16
+ADDF_X1.4->Cap->CI_b=1.40315e-15
+ADDF_X1.4->Cap->P=4.73261e-15
+ADDF_X1.4->Cap->P_b=1.66715e-15
+ADDF_X1.4->Cap->S=3.14861e-15
+ADDF_X1.4->Cap->CP=3.3343e-15
+ADDF_X1.4->Cap->G=3.3343e-15
+ADDF_X1.4->Cap->CO=3.14861e-15
+ADDF_X1.4->DriveRes->S=4852.27
+ADDF_X1.4->DriveRes->CO=1914.77
+ADDF_X1.4->Delay->A_to_S=4.97731e-11
+ADDF_X1.4->Delay->B_to_S=4.97731e-11
+ADDF_X1.4->Delay->CI_to_S=1.63335e-11
+ADDF_X1.4->Delay->A_to_CO=4.87989e-11
+ADDF_X1.4->Delay->B_to_CO=4.87989e-11
+ADDF_X1.4->Delay->CI_to_CO=1.30268e-11
+ModelGen::createStdCell -> DFFQ
+=== DFFQ_X1.4 ===
+DFFQ_X1.4->Area->Active=5.632e-12
+DFFQ_X1.4->Area->Metal1Wire=5.632e-12
+DFFQ_X1.4->Leakage->!D!CK!Q=1.54416e-06
+DFFQ_X1.4->Leakage->!D!CKQ=2.06973e-06
+DFFQ_X1.4->Leakage->!DCK!Q=1.54416e-06
+DFFQ_X1.4->Leakage->!DCKQ=2.3148e-06
+DFFQ_X1.4->Leakage->D!CK!Q=1.66229e-06
+DFFQ_X1.4->Leakage->D!CKQ=2.11385e-06
+DFFQ_X1.4->Leakage->DCK!Q=1.41722e-06
+DFFQ_X1.4->Leakage->DCKQ=2.11385e-06
+DFFQ_X1.4->Cap->D=3.2e-16
+DFFQ_X1.4->Cap->D_b=1.33115e-15
+DFFQ_X1.4->Cap->M_b=3.35661e-15
+DFFQ_X1.4->Cap->M=1.98715e-15
+DFFQ_X1.4->Cap->M_i=3.35661e-15
+DFFQ_X1.4->Cap->Q_b=2.86715e-15
+DFFQ_X1.4->Cap->Q=1.5743e-15
+DFFQ_X1.4->Cap->CK=3.2e-16
+DFFQ_X1.4->Cap->CK_b=1.97115e-15
+DFFQ_X1.4->Cap->CK_i=1.65115e-15
+DFFQ_X1.4->DriveRes->Q=1477.27
+DFFQ_X1.4->Delay->D_Setup=2.28509e-11
+DFFQ_X1.4->Delay->CK_to_Q=3.9165e-11
+ModelGen::createStdCell -> LATQ
+=== LATQ_X1.4 ===
+LATQ_X1.4->Area->Active=3.52e-12
+LATQ_X1.4->Area->Metal1Wire=3.52e-12
+LATQ_X1.4->Leakage->!D!G!Q=1.1091e-06
+LATQ_X1.4->Leakage->!D!GQ=1.75832e-06
+LATQ_X1.4->Leakage->!DG!Q=9.41311e-07
+LATQ_X1.4->Leakage->D!G!Q=8.58485e-07
+LATQ_X1.4->Leakage->D!GQ=1.43371e-06
+LATQ_X1.4->Leakage->DGQ=1.23276e-06
+LATQ_X1.4->Cap->D=3.2e-16
+LATQ_X1.4->Cap->D_b=1.33115e-15
+LATQ_X1.4->Cap->Q_i=3.35661e-15
+LATQ_X1.4->Cap->Q_b=2.86715e-15
+LATQ_X1.4->Cap->Q=1.5743e-15
+LATQ_X1.4->Cap->G=8.65386e-16
+LATQ_X1.4->Cap->G_b=1.10577e-15
+LATQ_X1.4->DriveRes->Q=1477.27
+LATQ_X1.4->Delay->D_to_Q=2.62644e-11
+LATQ_X1.4->Delay->G_to_Q=2.49953e-11
+ModelGen::createStdCell -> OR2
+=== OR2_X1.4 ===
+OR2_X1.4->ActiveArea=1.76e-12
+OR2_X1.4->Leakage->!A!B=7.5743e-07
+OR2_X1.4->Leakage->!AB=6.36691e-07
+OR2_X1.4->Leakage->A!B=7.02455e-07
+OR2_X1.4->Leakage->AB=5.52615e-07
+OR2_X1.4->Cap->A_Cap=1.1616e-15
+OR2_X1.4->Cap->B_Cap=1.1616e-15
+OR2_X1.4->Cap->Y_b_Cap=3.67222e-15
+OR2_X1.4->Cap->Y_Cap=1.5743e-15
+OR2_X1.4->DriveRes->Y=1477.27
+OR2_X1.4->Delay->A_to_Y=9.27954e-12
+OR2_X1.4->Delay->B_to_Y=9.27954e-12
+ModelGen::createStdCell -> AND2
+=== AND2_X1.4 ===
+AND2_X1.4->ActiveArea=1.76e-12
+AND2_X1.4->Leakage->!A!B=7.53566e-07
+AND2_X1.4->Leakage->!AB=7.53566e-07
+AND2_X1.4->Leakage->A!B=7.53566e-07
+AND2_X1.4->Leakage->AB=4.5183e-07
+AND2_X1.4->Cap->A=8.8e-16
+AND2_X1.4->Cap->B=8.8e-16
+AND2_X1.4->Cap->Y=3.3343e-15
+AND2_X1.4->Cap->Y=1.5743e-15
+AND2_X1.4->DriveRes->Y=1477.27
+AND2_X1.4->Delay->A_to_Y=1.04605e-11
+AND2_X1.4->Delay->B_to_Y=1.04605e-11
+ModelGen::createStdCell -> INV
+=== INV_X2 ===
+INV_X2->Area->Active=1.056e-12
+INV_X2->Area->Metal1Wire=1.056e-12
+INV_X2->Leakage->!A=5.02377e-07
+INV_X2->Leakage->A=3.64362e-07
+INV_X2->Cap->A=2.51429e-15
+INV_X2->Cap->Y=2.02687e-15
+INV_X2->DriveRes->Y=1034.09
+INV_X2->Delay->A_to_Y=1.45251e-12
+ModelGen::createStdCell -> NAND2
+=== NAND2_X2 ===
+NAND2_X2->Area->Active=1.76e-12
+NAND2_X2->Leakage->!A!B=5.02377e-07
+NAND2_X2->Leakage->!AB=5.02377e-07
+NAND2_X2->Leakage->A!B=5.02377e-07
+NAND2_X2->Leakage->AB=5.6222e-07
+NAND2_X2->Cap->A=2.51429e-15
+NAND2_X2->Cap->B=2.51429e-15
+NAND2_X2->Cap->Y=4.05375e-15
+NAND2_X2->DriveRes->Y=1340.34
+NAND2_X2->Delay->A_to_Y=3.76535e-12
+NAND2_X2->Delay->B_to_Y=3.76535e-12
+ModelGen::createStdCell -> NOR2
+=== NOR2_X2 ===
+NOR2_X2->ActiveArea=1.76e-12
+NOR2_X2->Leakage->!A!B=1.00475e-06
+NOR2_X2->Leakage->!AB=2.90724e-07
+NOR2_X2->Leakage->A!B=4.3307e-07
+NOR2_X2->Leakage->AB=1.00475e-07
+NOR2_X2->Cap->A_Cap=2.51429e-15
+NOR2_X2->Cap->B_Cap=2.51429e-15
+NOR2_X2->Cap->Y_Cap=4.05375e-15
+NOR2_X2->DriveRes->Y=1392.05
+NOR2_X2->Delay->A_to_Y=3.9106e-12
+NOR2_X2->Delay->B_to_Y=3.9106e-12
+ModelGen::createStdCell -> MUX2
+=== MUX2_X2 ===
+MUX2_X2->ActiveArea=2.816e-12
+MUX2_X2->Leakage->!A!B!S0=1.11793e-06
+MUX2_X2->Leakage->!A!BS0=9.5783e-07
+MUX2_X2->Leakage->!AB!S0=1.11793e-06
+MUX2_X2->Leakage->!ABS0=8.90104e-07
+MUX2_X2->Leakage->A!B!S0=1.0502e-06
+MUX2_X2->Leakage->A!BS0=1.09585e-06
+MUX2_X2->Leakage->AB!S0=6.24839e-07
+MUX2_X2->Leakage->ABS0=6.24839e-07
+MUX2_X2->Cap->A=1.25714e-15
+MUX2_X2->Cap->B=1.25714e-15
+MUX2_X2->Cap->S0=1.88571e-15
+MUX2_X2->Cap->S0_b=1.89344e-15
+MUX2_X2->Cap->Y_b=6.56803e-15
+MUX2_X2->Cap->Y=2.02687e-15
+MUX2_X2->DriveRes->Y=1034.09
+MUX2_X2->Delay->A_to_Y=1.69126e-11
+MUX2_X2->Delay->B_to_Y=1.69126e-11
+MUX2_X2->Delay->S0_to_Y=2.23401e-11
+ModelGen::createStdCell -> XOR2
+=== XOR2_X2 ===
+XOR2_X2->ActiveArea=3.872e-12
+XOR2_X2->Leakage->!A!B=1.09565e-06
+XOR2_X2->Leakage->!AB=1.43812e-06
+XOR2_X2->Leakage->A!B=1.43812e-06
+XOR2_X2->Leakage->AB=9.57635e-07
+XOR2_X2->Cap->A=3.77143e-15
+XOR2_X2->Cap->B=3.77143e-15
+XOR2_X2->Cap->A=3.52772e-15
+XOR2_X2->Cap->B=3.52772e-15
+XOR2_X2->Cap->Y=8.1075e-15
+XOR2_X2->DriveRes->Y=1698.3
+XOR2_X2->Delay->A_to_Y=1.4598e-11
+XOR2_X2->Delay->B_to_Y=1.4598e-11
+ModelGen::createStdCell -> ADDF
+=== ADDF_X2 ===
+ADDF_X2->Area->Active=7.392e-12
+ADDF_X2->Area->Metal1Wire=7.392e-12
+ADDF_X2->Leakage->!A!B!CI=2.51431e-06
+ADDF_X2->Leakage->!A!BCI=2.55995e-06
+ADDF_X2->Leakage->!AB!CI=2.845e-06
+ADDF_X2->Leakage->!ABCI=2.44924e-06
+ADDF_X2->Leakage->A!B!CI=2.845e-06
+ADDF_X2->Leakage->A!BCI=2.44924e-06
+ADDF_X2->Leakage->AB!CI=2.16419e-06
+ADDF_X2->Leakage->ABCI=2.20983e-06
+ADDF_X2->Cap->A=2.51429e-15
+ADDF_X2->Cap->B=2.51429e-15
+ADDF_X2->Cap->CI=3.14286e-15
+ADDF_X2->Cap->A_b=1.26487e-15
+ADDF_X2->Cap->B_b=1.26487e-15
+ADDF_X2->Cap->CI_b=1.89344e-15
+ADDF_X2->Cap->P=6.31661e-15
+ADDF_X2->Cap->P_b=2.27058e-15
+ADDF_X2->Cap->S=4.05375e-15
+ADDF_X2->Cap->CP=4.54116e-15
+ADDF_X2->Cap->G=4.54116e-15
+ADDF_X2->Cap->CO=4.05375e-15
+ADDF_X2->DriveRes->S=3396.59
+ADDF_X2->DriveRes->CO=1340.34
+ADDF_X2->Delay->A_to_S=4.61584e-11
+ADDF_X2->Delay->B_to_S=4.61584e-11
+ADDF_X2->Delay->CI_to_S=1.49694e-11
+ADDF_X2->Delay->A_to_CO=4.55638e-11
+ADDF_X2->Delay->B_to_CO=4.55638e-11
+ADDF_X2->Delay->CI_to_CO=1.22015e-11
+ModelGen::createStdCell -> DFFQ
+=== DFFQ_X2 ===
+DFFQ_X2->Area->Active=5.632e-12
+DFFQ_X2->Area->Metal1Wire=5.632e-12
+DFFQ_X2->Leakage->!D!CK!Q=1.68922e-06
+DFFQ_X2->Leakage->!D!CKQ=2.16013e-06
+DFFQ_X2->Leakage->!DCK!Q=1.68922e-06
+DFFQ_X2->Leakage->!DCKQ=2.42411e-06
+DFFQ_X2->Leakage->D!CK!Q=1.8795e-06
+DFFQ_X2->Leakage->D!CKQ=2.22316e-06
+DFFQ_X2->Leakage->DCK!Q=1.61552e-06
+DFFQ_X2->Leakage->DCKQ=2.22316e-06
+DFFQ_X2->Cap->D=3.41319e-16
+DFFQ_X2->Cap->D_b=1.72109e-15
+DFFQ_X2->Cap->M_b=4.18632e-15
+DFFQ_X2->Cap->M=2.59058e-15
+DFFQ_X2->Cap->M_i=4.18632e-15
+DFFQ_X2->Cap->Q_b=3.84772e-15
+DFFQ_X2->Cap->Q=2.02687e-15
+DFFQ_X2->Cap->CK=3.41319e-16
+DFFQ_X2->Cap->CK_b=2.3824e-15
+DFFQ_X2->Cap->CK_i=2.04109e-15
+DFFQ_X2->DriveRes->Q=1034.09
+DFFQ_X2->Delay->D_Setup=2.26003e-11
+DFFQ_X2->Delay->CK_to_Q=4.00387e-11
+ModelGen::createStdCell -> LATQ
+=== LATQ_X2 ===
+LATQ_X2->Area->Active=3.52e-12
+LATQ_X2->Area->Metal1Wire=3.52e-12
+LATQ_X2->Leakage->!D!G!Q=1.2184e-06
+LATQ_X2->Leakage->!D!GQ=1.75832e-06
+LATQ_X2->Leakage->!DG!Q=1.08636e-06
+LATQ_X2->Leakage->D!G!Q=1.0757e-06
+LATQ_X2->Leakage->D!GQ=1.48836e-06
+LATQ_X2->Leakage->DGQ=1.28741e-06
+LATQ_X2->Cap->D=3.41319e-16
+LATQ_X2->Cap->D_b=1.72109e-15
+LATQ_X2->Cap->Q_i=4.18632e-15
+LATQ_X2->Cap->Q_b=3.84772e-15
+LATQ_X2->Cap->Q=2.02687e-15
+LATQ_X2->Cap->G=1.05187e-15
+LATQ_X2->Cap->G_b=1.33053e-15
+LATQ_X2->DriveRes->Q=1034.09
+LATQ_X2->Delay->D_to_Q=2.58546e-11
+LATQ_X2->Delay->G_to_Q=2.38047e-11
+ModelGen::createStdCell -> OR2
+=== OR2_X2 ===
+OR2_X2->ActiveArea=2.464e-12
+OR2_X2->Leakage->!A!B=1.36911e-06
+OR2_X2->Leakage->!AB=6.94255e-07
+OR2_X2->Leakage->A!B=7.88203e-07
+OR2_X2->Leakage->AB=6.02852e-07
+OR2_X2->Cap->A_Cap=1.65943e-15
+OR2_X2->Cap->B_Cap=1.65943e-15
+OR2_X2->Cap->Y_b_Cap=5.54221e-15
+OR2_X2->Cap->Y_Cap=2.02687e-15
+OR2_X2->DriveRes->Y=1034.09
+OR2_X2->Delay->A_to_Y=9.55326e-12
+OR2_X2->Delay->B_to_Y=9.55326e-12
+ModelGen::createStdCell -> AND2
+=== AND2_X2 ===
+AND2_X2->ActiveArea=1.76e-12
+AND2_X2->Leakage->!A!B=7.53566e-07
+AND2_X2->Leakage->!AB=7.53566e-07
+AND2_X2->Leakage->A!B=7.53566e-07
+AND2_X2->Leakage->AB=6.45472e-07
+AND2_X2->Cap->A=1.25714e-15
+AND2_X2->Cap->B=1.25714e-15
+AND2_X2->Cap->Y=4.54116e-15
+AND2_X2->Cap->Y=2.02687e-15
+AND2_X2->DriveRes->Y=1034.09
+AND2_X2->Delay->A_to_Y=9.88868e-12
+AND2_X2->Delay->B_to_Y=9.88868e-12
+ModelGen::createStdCell -> INV
+=== INV_X3 ===
+INV_X3->Area->Active=1.408e-12
+INV_X3->Area->Metal1Wire=1.408e-12
+INV_X3->Leakage->!A=7.53566e-07
+INV_X3->Leakage->A=5.46542e-07
+INV_X3->Cap->A=3.77143e-15
+INV_X3->Cap->Y=3.04031e-15
+INV_X3->DriveRes->Y=689.394
+INV_X3->Delay->A_to_Y=1.45251e-12
+ModelGen::createStdCell -> NAND2
+=== NAND2_X3 ===
+NAND2_X3->Area->Active=2.464e-12
+NAND2_X3->Leakage->!A!B=7.53566e-07
+NAND2_X3->Leakage->!AB=7.53566e-07
+NAND2_X3->Leakage->A!B=7.53566e-07
+NAND2_X3->Leakage->AB=8.43329e-07
+NAND2_X3->Cap->A=3.77143e-15
+NAND2_X3->Cap->B=3.77143e-15
+NAND2_X3->Cap->Y=6.08062e-15
+NAND2_X3->DriveRes->Y=893.561
+NAND2_X3->Delay->A_to_Y=3.76535e-12
+NAND2_X3->Delay->B_to_Y=3.76535e-12
+ModelGen::createStdCell -> NOR2
+=== NOR2_X3 ===
+NOR2_X3->ActiveArea=2.464e-12
+NOR2_X3->Leakage->!A!B=1.50713e-06
+NOR2_X3->Leakage->!AB=4.36086e-07
+NOR2_X3->Leakage->A!B=6.49605e-07
+NOR2_X3->Leakage->AB=1.50713e-07
+NOR2_X3->Cap->A_Cap=3.77143e-15
+NOR2_X3->Cap->B_Cap=3.77143e-15
+NOR2_X3->Cap->Y_Cap=6.08062e-15
+NOR2_X3->DriveRes->Y=928.03
+NOR2_X3->Delay->A_to_Y=3.9106e-12
+NOR2_X3->Delay->B_to_Y=3.9106e-12
+ModelGen::createStdCell -> MUX2
+=== MUX2_X3 ===
+MUX2_X3->ActiveArea=4.576e-12
+MUX2_X3->Leakage->!A!B!S0=1.80249e-06
+MUX2_X3->Leakage->!A!BS0=1.68793e-06
+MUX2_X3->Leakage->!AB!S0=1.80249e-06
+MUX2_X3->Leakage->!ABS0=1.33516e-06
+MUX2_X3->Leakage->A!B!S0=1.44971e-06
+MUX2_X3->Leakage->A!BS0=1.89496e-06
+MUX2_X3->Leakage->AB!S0=9.62377e-07
+MUX2_X3->Leakage->ABS0=9.62377e-07
+MUX2_X3->Cap->A=1.88571e-15
+MUX2_X3->Cap->B=1.88571e-15
+MUX2_X3->Cap->S0=2.82857e-15
+MUX2_X3->Cap->S0_b=2.71058e-15
+MUX2_X3->Cap->Y_b=1.03704e-14
+MUX2_X3->Cap->Y=3.04031e-15
+MUX2_X3->DriveRes->Y=689.394
+MUX2_X3->Delay->A_to_Y=1.77259e-11
+MUX2_X3->Delay->B_to_Y=1.77259e-11
+MUX2_X3->Delay->S0_to_Y=2.29058e-11
+ModelGen::createStdCell -> XOR2
+=== XOR2_X3 ===
+XOR2_X3->ActiveArea=5.984e-12
+XOR2_X3->Leakage->!A!B=1.89467e-06
+XOR2_X3->Leakage->!AB=2.28278e-06
+XOR2_X3->Leakage->A!B=2.28278e-06
+XOR2_X3->Leakage->AB=1.43645e-06
+XOR2_X3->Cap->A=5.65714e-15
+XOR2_X3->Cap->B=5.65714e-15
+XOR2_X3->Cap->A=5.42116e-15
+XOR2_X3->Cap->B=5.42116e-15
+XOR2_X3->Cap->Y=1.21612e-14
+XOR2_X3->DriveRes->Y=1132.2
+XOR2_X3->Delay->A_to_Y=1.47218e-11
+XOR2_X3->Delay->B_to_Y=1.47218e-11
+ModelGen::createStdCell -> ADDF
+=== ADDF_X3 ===
+ADDF_X3->Area->Active=1.1264e-11
+ADDF_X3->Area->Metal1Wire=1.1264e-11
+ADDF_X3->Leakage->!A!B!CI=3.77146e-06
+ADDF_X3->Leakage->!A!BCI=4.21671e-06
+ADDF_X3->Leakage->!AB!CI=4.2675e-06
+ADDF_X3->Leakage->!ABCI=3.42267e-06
+ADDF_X3->Leakage->A!B!CI=4.2675e-06
+ADDF_X3->Leakage->A!BCI=3.42267e-06
+ADDF_X3->Leakage->AB!CI=3.37188e-06
+ADDF_X3->Leakage->ABCI=3.81712e-06
+ADDF_X3->Cap->A=3.77143e-15
+ADDF_X3->Cap->B=3.77143e-15
+ADDF_X3->Cap->CI=4.71429e-15
+ADDF_X3->Cap->A_b=1.76772e-15
+ADDF_X3->Cap->B_b=1.76772e-15
+ADDF_X3->Cap->CI_b=2.71058e-15
+ADDF_X3->Cap->P=8.95661e-15
+ADDF_X3->Cap->P_b=3.53545e-15
+ADDF_X3->Cap->S=6.59893e-15
+ADDF_X3->Cap->CP=7.07089e-15
+ADDF_X3->Cap->G=7.07089e-15
+ADDF_X3->Cap->CO=6.08062e-15
+ADDF_X3->DriveRes->S=2264.39
+ADDF_X3->DriveRes->CO=893.561
+ADDF_X3->Delay->A_to_S=4.52213e-11
+ADDF_X3->Delay->B_to_S=4.52213e-11
+ADDF_X3->Delay->CI_to_S=1.55351e-11
+ADDF_X3->Delay->A_to_CO=4.40105e-11
+ADDF_X3->Delay->B_to_CO=4.40105e-11
+ADDF_X3->Delay->CI_to_CO=1.25225e-11
+ModelGen::createStdCell -> DFFQ
+=== DFFQ_X3 ===
+DFFQ_X3->Area->Active=8.096e-12
+DFFQ_X3->Area->Metal1Wire=8.096e-12
+DFFQ_X3->Leakage->!D!CK!Q=2.50167e-06
+DFFQ_X3->Leakage->!D!CKQ=3.08244e-06
+DFFQ_X3->Leakage->!DCK!Q=2.50167e-06
+DFFQ_X3->Leakage->!DCKQ=3.37794e-06
+DFFQ_X3->Leakage->D!CK!Q=2.78005e-06
+DFFQ_X3->Leakage->D!CKQ=3.19506e-06
+DFFQ_X3->Leakage->DCK!Q=2.48455e-06
+DFFQ_X3->Leakage->DCKQ=3.19506e-06
+DFFQ_X3->Cap->D=4.71429e-16
+DFFQ_X3->Cap->D_b=2.42772e-15
+DFFQ_X3->Cap->M_b=6.08748e-15
+DFFQ_X3->Cap->M=3.85545e-15
+DFFQ_X3->Cap->M_i=6.08748e-15
+DFFQ_X3->Cap->Q_b=5.74116e-15
+DFFQ_X3->Cap->Q=3.04031e-15
+DFFQ_X3->Cap->CK=4.71429e-16
+DFFQ_X3->Cap->CK_b=3.21915e-15
+DFFQ_X3->Cap->CK_i=2.74772e-15
+DFFQ_X3->DriveRes->Q=689.394
+DFFQ_X3->Delay->D_Setup=2.25153e-11
+DFFQ_X3->Delay->CK_to_Q=3.92962e-11
+ModelGen::createStdCell -> LATQ
+=== LATQ_X3 ===
+LATQ_X3->Area->Active=4.928e-12
+LATQ_X3->Area->Metal1Wire=4.928e-12
+LATQ_X3->Leakage->!D!G!Q=1.70201e-06
+LATQ_X3->Leakage->!D!GQ=2.51189e-06
+LATQ_X3->Leakage->!DG!Q=1.59739e-06
+LATQ_X3->Leakage->D!G!Q=1.45579e-06
+LATQ_X3->Leakage->D!GQ=2.09991e-06
+LATQ_X3->Leakage->DGQ=1.91704e-06
+LATQ_X3->Cap->D=4.71429e-16
+LATQ_X3->Cap->D_b=2.42772e-15
+LATQ_X3->Cap->Q_i=6.08748e-15
+LATQ_X3->Cap->Q_b=5.74116e-15
+LATQ_X3->Cap->Q=3.04031e-15
+LATQ_X3->Cap->G=1.45726e-15
+LATQ_X3->Cap->G_b=1.76189e-15
+LATQ_X3->DriveRes->Q=689.394
+LATQ_X3->Delay->D_to_Q=2.57696e-11
+LATQ_X3->Delay->G_to_Q=2.32248e-11
+ModelGen::createStdCell -> OR2
+=== OR2_X3 ===
+OR2_X3->ActiveArea=2.816e-12
+OR2_X3->Leakage->!A!B=1.55129e-06
+OR2_X3->Leakage->!AB=1.04138e-06
+OR2_X3->Leakage->A!B=1.18231e-06
+OR2_X3->Leakage->AB=8.54041e-07
+OR2_X3->Cap->A_Cap=2.48914e-15
+OR2_X3->Cap->B_Cap=2.48914e-15
+OR2_X3->Cap->Y_b_Cap=7.79501e-15
+OR2_X3->Cap->Y_Cap=3.04031e-15
+OR2_X3->DriveRes->Y=689.394
+OR2_X3->Delay->A_to_Y=9.04821e-12
+OR2_X3->Delay->B_to_Y=9.04821e-12
+ModelGen::createStdCell -> AND2
+=== AND2_X3 ===
+AND2_X3->ActiveArea=2.816e-12
+AND2_X3->Leakage->!A!B=1.25594e-06
+AND2_X3->Leakage->!AB=1.25594e-06
+AND2_X3->Leakage->A!B=1.25594e-06
+AND2_X3->Leakage->AB=9.68207e-07
+AND2_X3->Cap->A=1.88571e-15
+AND2_X3->Cap->B=1.88571e-15
+AND2_X3->Cap->Y=7.07089e-15
+AND2_X3->Cap->Y=3.04031e-15
+AND2_X3->DriveRes->Y=689.394
+AND2_X3->Delay->A_to_Y=1.02096e-11
+AND2_X3->Delay->B_to_Y=1.02096e-11
+ModelGen::createStdCell -> INV
+=== INV_X4 ===
+INV_X4->Area->Active=1.76e-12
+INV_X4->Area->Metal1Wire=1.76e-12
+INV_X4->Leakage->!A=1.00475e-06
+INV_X4->Leakage->A=7.28723e-07
+INV_X4->Cap->A=5.02857e-15
+INV_X4->Cap->Y=4.05375e-15
+INV_X4->DriveRes->Y=517.045
+INV_X4->Delay->A_to_Y=1.45251e-12
+ModelGen::createStdCell -> NAND2
+=== NAND2_X4 ===
+NAND2_X4->Area->Active=3.168e-12
+NAND2_X4->Leakage->!A!B=1.00475e-06
+NAND2_X4->Leakage->!AB=1.00475e-06
+NAND2_X4->Leakage->A!B=1.00475e-06
+NAND2_X4->Leakage->AB=1.12444e-06
+NAND2_X4->Cap->A=5.02857e-15
+NAND2_X4->Cap->B=5.02857e-15
+NAND2_X4->Cap->Y=8.1075e-15
+NAND2_X4->DriveRes->Y=670.17
+NAND2_X4->Delay->A_to_Y=3.76535e-12
+NAND2_X4->Delay->B_to_Y=3.76535e-12
+ModelGen::createStdCell -> NOR2
+=== NOR2_X4 ===
+NOR2_X4->ActiveArea=3.168e-12
+NOR2_X4->Leakage->!A!B=2.00951e-06
+NOR2_X4->Leakage->!AB=5.81448e-07
+NOR2_X4->Leakage->A!B=8.66139e-07
+NOR2_X4->Leakage->AB=2.00951e-07
+NOR2_X4->Cap->A_Cap=5.02857e-15
+NOR2_X4->Cap->B_Cap=5.02857e-15
+NOR2_X4->Cap->Y_Cap=8.1075e-15
+NOR2_X4->DriveRes->Y=696.023
+NOR2_X4->Delay->A_to_Y=3.9106e-12
+NOR2_X4->Delay->B_to_Y=3.9106e-12
+ModelGen::createStdCell -> MUX2
+=== MUX2_X4 ===
+MUX2_X4->ActiveArea=4.928e-12
+MUX2_X4->Leakage->!A!B!S0=1.98467e-06
+MUX2_X4->Leakage->!A!BS0=1.91566e-06
+MUX2_X4->Leakage->!AB!S0=1.98467e-06
+MUX2_X4->Leakage->!ABS0=1.7802e-06
+MUX2_X4->Leakage->A!B!S0=1.84921e-06
+MUX2_X4->Leakage->A!BS0=2.19169e-06
+MUX2_X4->Leakage->AB!S0=1.24968e-06
+MUX2_X4->Leakage->ABS0=1.24968e-06
+MUX2_X4->Cap->A=2.51429e-15
+MUX2_X4->Cap->B=2.51429e-15
+MUX2_X4->Cap->S0=3.77143e-15
+MUX2_X4->Cap->S0_b=3.52772e-15
+MUX2_X4->Cap->Y_b=1.31361e-14
+MUX2_X4->Cap->Y=4.05375e-15
+MUX2_X4->DriveRes->Y=517.045
+MUX2_X4->Delay->A_to_Y=1.69126e-11
+MUX2_X4->Delay->B_to_Y=1.69126e-11
+MUX2_X4->Delay->S0_to_Y=2.19687e-11
+ModelGen::createStdCell -> XOR2
+=== XOR2_X4 ===
+XOR2_X4->ActiveArea=7.392e-12
+XOR2_X4->Leakage->!A!B=2.1913e-06
+XOR2_X4->Leakage->!AB=2.87624e-06
+XOR2_X4->Leakage->A!B=2.87624e-06
+XOR2_X4->Leakage->AB=1.91527e-06
+XOR2_X4->Cap->A=7.54286e-15
+XOR2_X4->Cap->B=7.54286e-15
+XOR2_X4->Cap->A=7.05545e-15
+XOR2_X4->Cap->B=7.05545e-15
+XOR2_X4->Cap->Y=1.6215e-14
+XOR2_X4->DriveRes->Y=849.148
+XOR2_X4->Delay->A_to_Y=1.4598e-11
+XOR2_X4->Delay->B_to_Y=1.4598e-11
+ModelGen::createStdCell -> ADDF
+=== ADDF_X4 ===
+ADDF_X4->Area->Active=1.1968e-11
+ADDF_X4->Area->Metal1Wire=1.1968e-11
+ADDF_X4->Leakage->!A!B!CI=4.27505e-06
+ADDF_X4->Leakage->!A!BCI=4.61752e-06
+ADDF_X4->Leakage->!AB!CI=4.68525e-06
+ADDF_X4->Leakage->!ABCI=4.14491e-06
+ADDF_X4->Leakage->A!B!CI=4.68525e-06
+ADDF_X4->Leakage->A!BCI=4.14491e-06
+ADDF_X4->Leakage->AB!CI=4.07718e-06
+ADDF_X4->Leakage->ABCI=4.41966e-06
+ADDF_X4->Cap->A=5.02857e-15
+ADDF_X4->Cap->B=5.02857e-15
+ADDF_X4->Cap->CI=6.28571e-15
+ADDF_X4->Cap->A_b=2.27058e-15
+ADDF_X4->Cap->B_b=2.27058e-15
+ADDF_X4->Cap->CI_b=3.52772e-15
+ADDF_X4->Cap->P=1.15966e-14
+ADDF_X4->Cap->P_b=4.54116e-15
+ADDF_X4->Cap->S=8.1075e-15
+ADDF_X4->Cap->CP=9.08232e-15
+ADDF_X4->Cap->G=9.08232e-15
+ADDF_X4->Cap->CO=8.1075e-15
+ADDF_X4->DriveRes->S=1698.3
+ADDF_X4->DriveRes->CO=670.17
+ADDF_X4->Delay->A_to_S=4.3347e-11
+ADDF_X4->Delay->B_to_S=4.3347e-11
+ADDF_X4->Delay->CI_to_S=1.4598e-11
+ADDF_X4->Delay->A_to_CO=4.27524e-11
+ADDF_X4->Delay->B_to_CO=4.27524e-11
+ADDF_X4->Delay->CI_to_CO=1.22015e-11
+ModelGen::createStdCell -> DFFQ
+=== DFFQ_X4 ===
+DFFQ_X4->Area->Active=8.448e-12
+DFFQ_X4->Area->Metal1Wire=8.448e-12
+DFFQ_X4->Leakage->!D!CK!Q=2.76619e-06
+DFFQ_X4->Leakage->!D!CKQ=3.50706e-06
+DFFQ_X4->Leakage->!DCK!Q=2.76619e-06
+DFFQ_X4->Leakage->!DCKQ=3.83407e-06
+DFFQ_X4->Leakage->D!CK!Q=3.18761e-06
+DFFQ_X4->Leakage->D!CKQ=3.67398e-06
+DFFQ_X4->Leakage->DCK!Q=2.8606e-06
+DFFQ_X4->Leakage->DCKQ=3.67398e-06
+DFFQ_X4->Cap->D=6.28571e-16
+DFFQ_X4->Cap->D_b=3.15058e-15
+DFFQ_X4->Cap->M_b=7.49031e-15
+DFFQ_X4->Cap->M=4.87781e-15
+DFFQ_X4->Cap->M_i=7.49031e-15
+DFFQ_X4->Cap->Q_b=7.39209e-15
+DFFQ_X4->Cap->Q=4.05375e-15
+DFFQ_X4->Cap->CK=6.28571e-16
+DFFQ_X4->Cap->CK_b=4.1158e-15
+DFFQ_X4->Cap->CK_i=3.48723e-15
+DFFQ_X4->DriveRes->Q=517.045
+DFFQ_X4->Delay->D_Setup=2.13422e-11
+DFFQ_X4->Delay->CK_to_Q=3.73594e-11
+ModelGen::createStdCell -> LATQ
+=== LATQ_X4 ===
+LATQ_X4->Area->Active=5.28e-12
+LATQ_X4->Area->Metal1Wire=5.28e-12
+LATQ_X4->Leakage->!D!G!Q=1.88419e-06
+LATQ_X4->Leakage->!D!GQ=2.76307e-06
+LATQ_X4->Leakage->!DG!Q=1.86192e-06
+LATQ_X4->Leakage->D!G!Q=1.84058e-06
+LATQ_X4->Leakage->D!GQ=2.46496e-06
+LATQ_X4->Leakage->DGQ=2.30486e-06
+LATQ_X4->Cap->D=6.28571e-16
+LATQ_X4->Cap->D_b=3.15058e-15
+LATQ_X4->Cap->Q_i=7.49031e-15
+LATQ_X4->Cap->Q_b=7.39209e-15
+LATQ_X4->Cap->Q=4.05375e-15
+LATQ_X4->Cap->G=1.90632e-15
+LATQ_X4->Cap->G_b=2.20948e-15
+LATQ_X4->DriveRes->Q=517.045
+LATQ_X4->Delay->D_to_Q=2.45965e-11
+LATQ_X4->Delay->G_to_Q=2.18988e-11
+ModelGen::createStdCell -> OR2
+=== OR2_X4 ===
+OR2_X4->ActiveArea=3.872e-12
+OR2_X4->Leakage->!A!B=2.23585e-06
+OR2_X4->Leakage->!AB=1.38851e-06
+OR2_X4->Leakage->A!B=1.5764e-06
+OR2_X4->Leakage->AB=1.15546e-06
+OR2_X4->Cap->A_Cap=3.31886e-15
+OR2_X4->Cap->B_Cap=3.31886e-15
+OR2_X4->Cap->Y_b_Cap=1.05661e-14
+OR2_X4->Cap->Y_Cap=4.05375e-15
+OR2_X4->DriveRes->Y=517.045
+OR2_X4->Delay->A_to_Y=9.17447e-12
+OR2_X4->Delay->B_to_Y=9.17447e-12
+ModelGen::createStdCell -> AND2
+=== AND2_X4 ===
+AND2_X4->ActiveArea=3.168e-12
+AND2_X4->Leakage->!A!B=1.50713e-06
+AND2_X4->Leakage->!AB=1.50713e-06
+AND2_X4->Leakage->A!B=1.50713e-06
+AND2_X4->Leakage->AB=1.29094e-06
+AND2_X4->Cap->A=2.51429e-15
+AND2_X4->Cap->B=2.51429e-15
+AND2_X4->Cap->Y=9.08232e-15
+AND2_X4->Cap->Y=4.05375e-15
+AND2_X4->DriveRes->Y=517.045
+AND2_X4->Delay->A_to_Y=9.88868e-12
+AND2_X4->Delay->B_to_Y=9.88868e-12
+ModelGen::createStdCell -> INV
+=== INV_X6 ===
+INV_X6->Area->Active=2.464e-12
+INV_X6->Area->Metal1Wire=2.464e-12
+INV_X6->Leakage->!A=1.50713e-06
+INV_X6->Leakage->A=1.09308e-06
+INV_X6->Cap->A=7.54286e-15
+INV_X6->Cap->Y=6.08062e-15
+INV_X6->DriveRes->Y=344.697
+INV_X6->Delay->A_to_Y=1.45251e-12
+ModelGen::createStdCell -> NAND2
+=== NAND2_X6 ===
+NAND2_X6->Area->Active=4.576e-12
+NAND2_X6->Leakage->!A!B=1.50713e-06
+NAND2_X6->Leakage->!AB=1.50713e-06
+NAND2_X6->Leakage->A!B=1.50713e-06
+NAND2_X6->Leakage->AB=1.68666e-06
+NAND2_X6->Cap->A=7.54286e-15
+NAND2_X6->Cap->B=7.54286e-15
+NAND2_X6->Cap->Y=1.21612e-14
+NAND2_X6->DriveRes->Y=446.78
+NAND2_X6->Delay->A_to_Y=3.76535e-12
+NAND2_X6->Delay->B_to_Y=3.76535e-12
+ModelGen::createStdCell -> NOR2
+=== NOR2_X6 ===
+NOR2_X6->ActiveArea=4.576e-12
+NOR2_X6->Leakage->!A!B=3.01426e-06
+NOR2_X6->Leakage->!AB=8.72172e-07
+NOR2_X6->Leakage->A!B=1.29921e-06
+NOR2_X6->Leakage->AB=3.01426e-07
+NOR2_X6->Cap->A_Cap=7.54286e-15
+NOR2_X6->Cap->B_Cap=7.54286e-15
+NOR2_X6->Cap->Y_Cap=1.21612e-14
+NOR2_X6->DriveRes->Y=464.015
+NOR2_X6->Delay->A_to_Y=3.9106e-12
+NOR2_X6->Delay->B_to_Y=3.9106e-12
+ModelGen::createStdCell -> MUX2
+=== MUX2_X6 ===
+MUX2_X6->ActiveArea=7.392e-12
+MUX2_X6->Leakage->!A!B!S0=3.10259e-06
+MUX2_X6->Leakage->!A!BS0=2.87348e-06
+MUX2_X6->Leakage->!AB!S0=3.10259e-06
+MUX2_X6->Leakage->!ABS0=2.67031e-06
+MUX2_X6->Leakage->A!B!S0=2.89942e-06
+MUX2_X6->Leakage->A!BS0=3.28753e-06
+MUX2_X6->Leakage->AB!S0=1.87451e-06
+MUX2_X6->Leakage->ABS0=1.87451e-06
+MUX2_X6->Cap->A=3.77143e-15
+MUX2_X6->Cap->B=3.77143e-15
+MUX2_X6->Cap->S0=5.65714e-15
+MUX2_X6->Cap->S0_b=5.42116e-15
+MUX2_X6->Cap->Y_b=1.97041e-14
+MUX2_X6->Cap->Y=6.08062e-15
+MUX2_X6->DriveRes->Y=344.697
+MUX2_X6->Delay->A_to_Y=1.69126e-11
+MUX2_X6->Delay->B_to_Y=1.69126e-11
+MUX2_X6->Delay->S0_to_Y=2.20925e-11
+ModelGen::createStdCell -> XOR2
+=== XOR2_X6 ===
+XOR2_X6->ActiveArea=1.0912e-11
+XOR2_X6->Leakage->!A!B=3.28696e-06
+XOR2_X6->Leakage->!AB=4.31437e-06
+XOR2_X6->Leakage->A!B=4.31437e-06
+XOR2_X6->Leakage->AB=2.87291e-06
+XOR2_X6->Cap->A=1.13143e-14
+XOR2_X6->Cap->B=1.13143e-14
+XOR2_X6->Cap->A=1.05832e-14
+XOR2_X6->Cap->B=1.05832e-14
+XOR2_X6->Cap->Y=2.43225e-14
+XOR2_X6->DriveRes->Y=566.098
+XOR2_X6->Delay->A_to_Y=1.4598e-11
+XOR2_X6->Delay->B_to_Y=1.4598e-11
+ModelGen::createStdCell -> ADDF
+=== ADDF_X6 ===
+ADDF_X6->Area->Active=1.9008e-11
+ADDF_X6->Area->Metal1Wire=1.9008e-11
+ADDF_X6->Leakage->!A!B!CI=6.78936e-06
+ADDF_X6->Leakage->!A!BCI=7.17747e-06
+ADDF_X6->Leakage->!AB!CI=7.53025e-06
+ADDF_X6->Leakage->!ABCI=6.59415e-06
+ADDF_X6->Leakage->A!B!CI=7.53025e-06
+ADDF_X6->Leakage->A!BCI=6.59415e-06
+ADDF_X6->Leakage->AB!CI=6.24138e-06
+ADDF_X6->Leakage->ABCI=6.62949e-06
+ADDF_X6->Cap->A=7.54286e-15
+ADDF_X6->Cap->B=7.54286e-15
+ADDF_X6->Cap->CI=9.42857e-15
+ADDF_X6->Cap->A_b=3.53545e-15
+ADDF_X6->Cap->B_b=3.53545e-15
+ADDF_X6->Cap->CI_b=5.42116e-15
+ADDF_X6->Cap->P=1.79132e-14
+ADDF_X6->Cap->P_b=6.81174e-15
+ADDF_X6->Cap->S=1.21612e-14
+ADDF_X6->Cap->CP=1.36235e-14
+ADDF_X6->Cap->G=1.36235e-14
+ADDF_X6->Cap->CO=1.21612e-14
+ADDF_X6->DriveRes->S=1132.2
+ADDF_X6->DriveRes->CO=446.78
+ADDF_X6->Delay->A_to_S=4.42842e-11
+ADDF_X6->Delay->B_to_S=4.42842e-11
+ADDF_X6->Delay->CI_to_S=1.47218e-11
+ADDF_X6->Delay->A_to_CO=4.36895e-11
+ADDF_X6->Delay->B_to_CO=4.36895e-11
+ADDF_X6->Delay->CI_to_CO=1.22015e-11
+ModelGen::createStdCell -> DFFQ
+=== DFFQ_X6 ===
+DFFQ_X6->Area->Active=1.1264e-11
+DFFQ_X6->Area->Metal1Wire=1.1264e-11
+DFFQ_X6->Leakage->!D!CK!Q=3.84786e-06
+DFFQ_X6->Leakage->!D!CKQ=4.85869e-06
+DFFQ_X6->Leakage->!DCK!Q=3.84786e-06
+DFFQ_X6->Leakage->!DCKQ=5.24874e-06
+DFFQ_X6->Leakage->D!CK!Q=4.5051e-06
+DFFQ_X6->Leakage->D!CKQ=5.13419e-06
+DFFQ_X6->Leakage->DCK!Q=4.11506e-06
+DFFQ_X6->Leakage->DCKQ=5.13419e-06
+DFFQ_X6->Cap->D=9.42857e-16
+DFFQ_X6->Cap->D_b=4.59629e-15
+DFFQ_X6->Cap->M_b=1.09361e-14
+DFFQ_X6->Cap->M=7.28317e-15
+DFFQ_X6->Cap->M_i=1.09361e-14
+DFFQ_X6->Cap->Q_b=1.10546e-14
+DFFQ_X6->Cap->Q=6.08062e-15
+DFFQ_X6->Cap->CK=9.42857e-16
+DFFQ_X6->Cap->CK_b=6.01058e-15
+DFFQ_X6->Cap->CK_i=5.06772e-15
+DFFQ_X6->DriveRes->Q=344.697
+DFFQ_X6->Delay->D_Setup=2.08436e-11
+DFFQ_X6->Delay->CK_to_Q=3.64851e-11
+ModelGen::createStdCell -> LATQ
+=== LATQ_X6 ===
+LATQ_X6->Area->Active=7.04e-12
+LATQ_X6->Area->Metal1Wire=7.04e-12
+LATQ_X6->Leakage->!D!G!Q=2.54997e-06
+LATQ_X6->Leakage->!D!GQ=3.76783e-06
+LATQ_X6->Leakage->!DG!Q=2.64216e-06
+LATQ_X6->Leakage->D!G!Q=2.61015e-06
+LATQ_X6->Leakage->D!GQ=3.44625e-06
+LATQ_X6->Leakage->DGQ=3.3317e-06
+LATQ_X6->Cap->D=9.42857e-16
+LATQ_X6->Cap->D_b=4.59629e-15
+LATQ_X6->Cap->Q_i=1.09361e-14
+LATQ_X6->Cap->Q_b=1.10546e-14
+LATQ_X6->Cap->Q=6.08062e-15
+LATQ_X6->Cap->G=2.85948e-15
+LATQ_X6->Cap->G_b=3.1511e-15
+LATQ_X6->DriveRes->Q=344.697
+LATQ_X6->Delay->D_to_Q=2.40979e-11
+LATQ_X6->Delay->G_to_Q=2.13362e-11
+ModelGen::createStdCell -> OR2
+=== OR2_X6 ===
+OR2_X6->ActiveArea=5.28e-12
+OR2_X6->Leakage->!A!B=3.10259e-06
+OR2_X6->Leakage->!AB=2.08276e-06
+OR2_X6->Leakage->A!B=2.36461e-06
+OR2_X6->Leakage->AB=1.70808e-06
+OR2_X6->Cap->A_Cap=4.97829e-15
+OR2_X6->Cap->B_Cap=4.97829e-15
+OR2_X6->Cap->Y_b_Cap=1.559e-14
+OR2_X6->Cap->Y_Cap=6.08062e-15
+OR2_X6->DriveRes->Y=344.697
+OR2_X6->Delay->A_to_Y=9.04821e-12
+OR2_X6->Delay->B_to_Y=9.04821e-12
+ModelGen::createStdCell -> AND2
+=== AND2_X6 ===
+AND2_X6->ActiveArea=4.576e-12
+AND2_X6->Leakage->!A!B=2.2607e-06
+AND2_X6->Leakage->!AB=2.2607e-06
+AND2_X6->Leakage->A!B=2.2607e-06
+AND2_X6->Leakage->AB=1.93641e-06
+AND2_X6->Cap->A=3.77143e-15
+AND2_X6->Cap->B=3.77143e-15
+AND2_X6->Cap->Y=1.36235e-14
+AND2_X6->Cap->Y=6.08062e-15
+AND2_X6->DriveRes->Y=344.697
+AND2_X6->Delay->A_to_Y=9.88868e-12
+AND2_X6->Delay->B_to_Y=9.88868e-12
+ModelGen::createStdCell -> INV
+=== INV_X8 ===
+INV_X8->Area->Active=3.168e-12
+INV_X8->Area->Metal1Wire=3.168e-12
+INV_X8->Leakage->!A=2.00951e-06
+INV_X8->Leakage->A=1.45745e-06
+INV_X8->Cap->A=1.00571e-14
+INV_X8->Cap->Y=8.1075e-15
+INV_X8->DriveRes->Y=258.523
+INV_X8->Delay->A_to_Y=1.45251e-12
+ModelGen::createStdCell -> NAND2
+=== NAND2_X8 ===
+NAND2_X8->Area->Active=5.984e-12
+NAND2_X8->Leakage->!A!B=2.00951e-06
+NAND2_X8->Leakage->!AB=2.00951e-06
+NAND2_X8->Leakage->A!B=2.00951e-06
+NAND2_X8->Leakage->AB=2.24888e-06
+NAND2_X8->Cap->A=1.00571e-14
+NAND2_X8->Cap->B=1.00571e-14
+NAND2_X8->Cap->Y=1.6215e-14
+NAND2_X8->DriveRes->Y=335.085
+NAND2_X8->Delay->A_to_Y=3.76535e-12
+NAND2_X8->Delay->B_to_Y=3.76535e-12
+ModelGen::createStdCell -> NOR2
+=== NOR2_X8 ===
+NOR2_X8->ActiveArea=5.984e-12
+NOR2_X8->Leakage->!A!B=4.01902e-06
+NOR2_X8->Leakage->!AB=1.1629e-06
+NOR2_X8->Leakage->A!B=1.73228e-06
+NOR2_X8->Leakage->AB=4.01902e-07
+NOR2_X8->Cap->A_Cap=1.00571e-14
+NOR2_X8->Cap->B_Cap=1.00571e-14
+NOR2_X8->Cap->Y_Cap=1.6215e-14
+NOR2_X8->DriveRes->Y=348.011
+NOR2_X8->Delay->A_to_Y=3.9106e-12
+NOR2_X8->Delay->B_to_Y=3.9106e-12
+ModelGen::createStdCell -> MUX2
+=== MUX2_X8 ===
+MUX2_X8->ActiveArea=9.504e-12
+MUX2_X8->Leakage->!A!B!S0=3.96933e-06
+MUX2_X8->Leakage->!A!BS0=3.83131e-06
+MUX2_X8->Leakage->!AB!S0=3.96933e-06
+MUX2_X8->Leakage->!ABS0=3.56042e-06
+MUX2_X8->Leakage->A!B!S0=3.69843e-06
+MUX2_X8->Leakage->A!BS0=4.38337e-06
+MUX2_X8->Leakage->AB!S0=2.49936e-06
+MUX2_X8->Leakage->ABS0=2.49936e-06
+MUX2_X8->Cap->A=5.02857e-15
+MUX2_X8->Cap->B=5.02857e-15
+MUX2_X8->Cap->S0=7.54286e-15
+MUX2_X8->Cap->S0_b=7.05545e-15
+MUX2_X8->Cap->Y_b=2.62721e-14
+MUX2_X8->Cap->Y=8.1075e-15
+MUX2_X8->DriveRes->Y=258.523
+MUX2_X8->Delay->A_to_Y=1.69126e-11
+MUX2_X8->Delay->B_to_Y=1.69126e-11
+MUX2_X8->Delay->S0_to_Y=2.19687e-11
+ModelGen::createStdCell -> XOR2
+=== XOR2_X8 ===
+XOR2_X8->ActiveArea=1.4432e-11
+XOR2_X8->Leakage->!A!B=4.38259e-06
+XOR2_X8->Leakage->!AB=5.75249e-06
+XOR2_X8->Leakage->A!B=5.75249e-06
+XOR2_X8->Leakage->AB=3.83054e-06
+XOR2_X8->Cap->A=1.50857e-14
+XOR2_X8->Cap->B=1.50857e-14
+XOR2_X8->Cap->A=1.41109e-14
+XOR2_X8->Cap->B=1.41109e-14
+XOR2_X8->Cap->Y=3.243e-14
+XOR2_X8->DriveRes->Y=424.574
+XOR2_X8->Delay->A_to_Y=1.4598e-11
+XOR2_X8->Delay->B_to_Y=1.4598e-11
+ModelGen::createStdCell -> ADDF
+=== ADDF_X8 ===
+ADDF_X8->Area->Active=2.3584e-11
+ADDF_X8->Area->Metal1Wire=2.3584e-11
+ADDF_X8->Leakage->!A!B!CI=8.55008e-06
+ADDF_X8->Leakage->!A!BCI=9.23502e-06
+ADDF_X8->Leakage->!AB!CI=9.37047e-06
+ADDF_X8->Leakage->!ABCI=8.28982e-06
+ADDF_X8->Leakage->A!B!CI=9.37047e-06
+ADDF_X8->Leakage->A!BCI=8.28982e-06
+ADDF_X8->Leakage->AB!CI=8.15437e-06
+ADDF_X8->Leakage->ABCI=8.83931e-06
+ADDF_X8->Cap->A=1.00571e-14
+ADDF_X8->Cap->B=1.00571e-14
+ADDF_X8->Cap->CI=1.25714e-14
+ADDF_X8->Cap->A_b=4.54116e-15
+ADDF_X8->Cap->B_b=4.54116e-15
+ADDF_X8->Cap->CI_b=7.05545e-15
+ADDF_X8->Cap->P=2.31932e-14
+ADDF_X8->Cap->P_b=9.08232e-15
+ADDF_X8->Cap->S=1.6215e-14
+ADDF_X8->Cap->CP=1.81646e-14
+ADDF_X8->Cap->G=1.81646e-14
+ADDF_X8->Cap->CO=1.6215e-14
+ADDF_X8->DriveRes->S=849.148
+ADDF_X8->DriveRes->CO=335.085
+ADDF_X8->Delay->A_to_S=4.3347e-11
+ADDF_X8->Delay->B_to_S=4.3347e-11
+ADDF_X8->Delay->CI_to_S=1.4598e-11
+ADDF_X8->Delay->A_to_CO=4.27524e-11
+ADDF_X8->Delay->B_to_CO=4.27524e-11
+ADDF_X8->Delay->CI_to_CO=1.22015e-11
+ModelGen::createStdCell -> DFFQ
+=== DFFQ_X8 ===
+DFFQ_X8->Area->Active=1.408e-11
+DFFQ_X8->Area->Metal1Wire=1.408e-11
+DFFQ_X8->Leakage->!D!CK!Q=4.93887e-06
+DFFQ_X8->Leakage->!D!CKQ=6.21032e-06
+DFFQ_X8->Leakage->!DCK!Q=4.93887e-06
+DFFQ_X8->Leakage->!DCKQ=6.66339e-06
+DFFQ_X8->Leakage->D!CK!Q=5.83194e-06
+DFFQ_X8->Leakage->D!CKQ=6.59439e-06
+DFFQ_X8->Leakage->DCK!Q=5.37886e-06
+DFFQ_X8->Leakage->DCKQ=6.59439e-06
+DFFQ_X8->Cap->D=1.25714e-15
+DFFQ_X8->Cap->D_b=6.04201e-15
+DFFQ_X8->Cap->M_b=1.44087e-14
+DFFQ_X8->Cap->M=9.71089e-15
+DFFQ_X8->Cap->M_i=1.44087e-14
+DFFQ_X8->Cap->Q_b=1.47395e-14
+DFFQ_X8->Cap->Q=8.1075e-15
+DFFQ_X8->Cap->CK=1.25714e-15
+DFFQ_X8->Cap->CK_b=7.92772e-15
+DFFQ_X8->Cap->CK_i=6.67058e-15
+DFFQ_X8->DriveRes->Q=258.523
+DFFQ_X8->Delay->D_Setup=2.06182e-11
+DFFQ_X8->Delay->CK_to_Q=3.61358e-11
+ModelGen::createStdCell -> LATQ
+=== LATQ_X8 ===
+LATQ_X8->Area->Active=8.8e-12
+LATQ_X8->Area->Metal1Wire=8.8e-12
+LATQ_X8->Leakage->!D!G!Q=3.2251e-06
+LATQ_X8->Leakage->!D!GQ=4.77258e-06
+LATQ_X8->Leakage->!DG!Q=3.4224e-06
+LATQ_X8->Leakage->D!G!Q=3.38907e-06
+LATQ_X8->Leakage->D!GQ=4.42754e-06
+LATQ_X8->Leakage->DGQ=4.35853e-06
+LATQ_X8->Cap->D=1.25714e-15
+LATQ_X8->Cap->D_b=6.04201e-15
+LATQ_X8->Cap->Q_i=1.44087e-14
+LATQ_X8->Cap->Q_b=1.47395e-14
+LATQ_X8->Cap->Q=8.1075e-15
+LATQ_X8->Cap->G=3.81265e-15
+LATQ_X8->Cap->G_b=4.11508e-15
+LATQ_X8->DriveRes->Q=258.523
+LATQ_X8->Delay->D_to_Q=2.38725e-11
+LATQ_X8->Delay->G_to_Q=2.11107e-11
+ModelGen::createStdCell -> OR2
+=== OR2_X8 ===
+OR2_X8->ActiveArea=7.392e-12
+OR2_X8->Leakage->!A!B=4.47171e-06
+OR2_X8->Leakage->!AB=2.77702e-06
+OR2_X8->Leakage->A!B=3.15281e-06
+OR2_X8->Leakage->AB=2.31094e-06
+OR2_X8->Cap->A_Cap=6.63771e-15
+OR2_X8->Cap->B_Cap=6.63771e-15
+OR2_X8->Cap->Y_b_Cap=2.11322e-14
+OR2_X8->Cap->Y_Cap=8.1075e-15
+OR2_X8->DriveRes->Y=258.523
+OR2_X8->Delay->A_to_Y=9.17447e-12
+OR2_X8->Delay->B_to_Y=9.17447e-12
+ModelGen::createStdCell -> AND2
+=== AND2_X8 ===
+AND2_X8->ActiveArea=5.984e-12
+AND2_X8->Leakage->!A!B=3.01426e-06
+AND2_X8->Leakage->!AB=3.01426e-06
+AND2_X8->Leakage->A!B=3.01426e-06
+AND2_X8->Leakage->AB=2.58189e-06
+AND2_X8->Cap->A=5.02857e-15
+AND2_X8->Cap->B=5.02857e-15
+AND2_X8->Cap->Y=1.81646e-14
+AND2_X8->Cap->Y=8.1075e-15
+AND2_X8->DriveRes->Y=258.523
+AND2_X8->Delay->A_to_Y=9.88868e-12
+AND2_X8->Delay->B_to_Y=9.88868e-12
+ModelGen::createStdCell -> INV
+=== INV_X10 ===
+INV_X10->Area->Active=3.872e-12
+INV_X10->Area->Metal1Wire=3.872e-12
+INV_X10->Leakage->!A=2.51189e-06
+INV_X10->Leakage->A=1.82181e-06
+INV_X10->Cap->A=1.25714e-14
+INV_X10->Cap->Y=1.01344e-14
+INV_X10->DriveRes->Y=206.818
+INV_X10->Delay->A_to_Y=1.45251e-12
+ModelGen::createStdCell -> NAND2
+=== NAND2_X10 ===
+NAND2_X10->Area->Active=7.392e-12
+NAND2_X10->Leakage->!A!B=2.51189e-06
+NAND2_X10->Leakage->!AB=2.51189e-06
+NAND2_X10->Leakage->A!B=2.51189e-06
+NAND2_X10->Leakage->AB=2.8111e-06
+NAND2_X10->Cap->A=1.25714e-14
+NAND2_X10->Cap->B=1.25714e-14
+NAND2_X10->Cap->Y=2.02687e-14
+NAND2_X10->DriveRes->Y=268.068
+NAND2_X10->Delay->A_to_Y=3.76535e-12
+NAND2_X10->Delay->B_to_Y=3.76535e-12
+ModelGen::createStdCell -> NOR2
+=== NOR2_X10 ===
+NOR2_X10->ActiveArea=7.392e-12
+NOR2_X10->Leakage->!A!B=5.02377e-06
+NOR2_X10->Leakage->!AB=1.45362e-06
+NOR2_X10->Leakage->A!B=2.16535e-06
+NOR2_X10->Leakage->AB=5.02377e-07
+NOR2_X10->Cap->A_Cap=1.25714e-14
+NOR2_X10->Cap->B_Cap=1.25714e-14
+NOR2_X10->Cap->Y_Cap=2.02687e-14
+NOR2_X10->DriveRes->Y=278.409
+NOR2_X10->Delay->A_to_Y=3.9106e-12
+NOR2_X10->Delay->B_to_Y=3.9106e-12
+ModelGen::createStdCell -> MUX2
+=== MUX2_X10 ===
+MUX2_X10->ActiveArea=1.1968e-11
+MUX2_X10->Leakage->!A!B!S0=5.08726e-06
+MUX2_X10->Leakage->!A!BS0=4.78914e-06
+MUX2_X10->Leakage->!AB!S0=5.08726e-06
+MUX2_X10->Leakage->!ABS0=4.45053e-06
+MUX2_X10->Leakage->A!B!S0=4.74864e-06
+MUX2_X10->Leakage->A!BS0=5.47922e-06
+MUX2_X10->Leakage->AB!S0=3.1242e-06
+MUX2_X10->Leakage->ABS0=3.1242e-06
+MUX2_X10->Cap->A=6.28571e-15
+MUX2_X10->Cap->B=6.28571e-15
+MUX2_X10->Cap->S0=9.42857e-15
+MUX2_X10->Cap->S0_b=8.94888e-15
+MUX2_X10->Cap->Y_b=3.28402e-14
+MUX2_X10->Cap->Y=1.01344e-14
+MUX2_X10->DriveRes->Y=206.818
+MUX2_X10->Delay->A_to_Y=1.69126e-11
+MUX2_X10->Delay->B_to_Y=1.69126e-11
+MUX2_X10->Delay->S0_to_Y=2.2043e-11
+ModelGen::createStdCell -> XOR2
+=== XOR2_X10 ===
+XOR2_X10->ActiveArea=1.7952e-11
+XOR2_X10->Leakage->!A!B=5.47825e-06
+XOR2_X10->Leakage->!AB=7.19062e-06
+XOR2_X10->Leakage->A!B=7.19062e-06
+XOR2_X10->Leakage->AB=4.78818e-06
+XOR2_X10->Cap->A=1.88571e-14
+XOR2_X10->Cap->B=1.88571e-14
+XOR2_X10->Cap->A=1.76386e-14
+XOR2_X10->Cap->B=1.76386e-14
+XOR2_X10->Cap->Y=4.05375e-14
+XOR2_X10->DriveRes->Y=339.659
+XOR2_X10->Delay->A_to_Y=1.4598e-11
+XOR2_X10->Delay->B_to_Y=1.4598e-11
+ModelGen::createStdCell -> ADDF
+=== ADDF_X10 ===
+ADDF_X10->Area->Active=3.0624e-11
+ADDF_X10->Area->Metal1Wire=3.0624e-11
+ADDF_X10->Leakage->!A!B!CI=1.10644e-05
+ADDF_X10->Leakage->!A!BCI=1.1795e-05
+ADDF_X10->Leakage->!AB!CI=1.22155e-05
+ADDF_X10->Leakage->!ABCI=1.07391e-05
+ADDF_X10->Leakage->A!B!CI=1.22155e-05
+ADDF_X10->Leakage->A!BCI=1.07391e-05
+ADDF_X10->Leakage->AB!CI=1.03186e-05
+ADDF_X10->Leakage->ABCI=1.10491e-05
+ADDF_X10->Cap->A=1.25714e-14
+ADDF_X10->Cap->B=1.25714e-14
+ADDF_X10->Cap->CI=1.57143e-14
+ADDF_X10->Cap->A_b=5.80603e-15
+ADDF_X10->Cap->B_b=5.80603e-15
+ADDF_X10->Cap->CI_b=8.94888e-15
+ADDF_X10->Cap->P=2.95098e-14
+ADDF_X10->Cap->P_b=1.13529e-14
+ADDF_X10->Cap->S=2.02687e-14
+ADDF_X10->Cap->CP=2.27058e-14
+ADDF_X10->Cap->G=2.27058e-14
+ADDF_X10->Cap->CO=2.02687e-14
+ADDF_X10->DriveRes->S=679.318
+ADDF_X10->DriveRes->CO=268.068
+ADDF_X10->Delay->A_to_S=4.39093e-11
+ADDF_X10->Delay->B_to_S=4.39093e-11
+ADDF_X10->Delay->CI_to_S=1.46723e-11
+ADDF_X10->Delay->A_to_CO=4.33146e-11
+ADDF_X10->Delay->B_to_CO=4.33146e-11
+ADDF_X10->Delay->CI_to_CO=1.22015e-11
+ModelGen::createStdCell -> DFFQ
+=== DFFQ_X10 ===
+DFFQ_X10->Area->Active=1.7952e-11
+DFFQ_X10->Area->Metal1Wire=1.7952e-11
+DFFQ_X10->Leakage->!D!CK!Q=6.53781e-06
+DFFQ_X10->Leakage->!D!CKQ=8.06433e-06
+DFFQ_X10->Leakage->!DCK!Q=6.53781e-06
+DFFQ_X10->Leakage->!DCKQ=8.58044e-06
+DFFQ_X10->Leakage->D!CK!Q=7.41552e-06
+DFFQ_X10->Leakage->D!CKQ=8.30579e-06
+DFFQ_X10->Leakage->DCK!Q=6.89941e-06
+DFFQ_X10->Leakage->DCKQ=8.30579e-06
+DFFQ_X10->Cap->D=1.57143e-15
+DFFQ_X10->Cap->D_b=7.74687e-15
+DFFQ_X10->Cap->M_b=1.78812e-14
+DFFQ_X10->Cap->M=1.21386e-14
+DFFQ_X10->Cap->M_i=1.78812e-14
+DFFQ_X10->Cap->Q_b=1.84243e-14
+DFFQ_X10->Cap->Q=1.01344e-14
+DFFQ_X10->Cap->CK=1.57143e-15
+DFFQ_X10->Cap->CK_b=1.0104e-14
+DFFQ_X10->Cap->CK_i=8.53259e-15
+DFFQ_X10->DriveRes->Q=206.818
+DFFQ_X10->Delay->D_Setup=2.078e-11
+DFFQ_X10->Delay->CK_to_Q=3.65205e-11
+ModelGen::createStdCell -> LATQ
+=== LATQ_X10 ===
+LATQ_X10->Area->Active=1.1264e-11
+LATQ_X10->Area->Metal1Wire=1.1264e-11
+LATQ_X10->Leakage->!D!G!Q=4.40816e-06
+LATQ_X10->Leakage->!D!GQ=6.27971e-06
+LATQ_X10->Leakage->!DG!Q=4.45384e-06
+LATQ_X10->Leakage->D!G!Q=4.42472e-06
+LATQ_X10->Leakage->D!GQ=5.66003e-06
+LATQ_X10->Leakage->DGQ=5.38538e-06
+LATQ_X10->Cap->D=1.57143e-15
+LATQ_X10->Cap->D_b=7.74687e-15
+LATQ_X10->Cap->Q_i=1.78812e-14
+LATQ_X10->Cap->Q_b=1.84243e-14
+LATQ_X10->Cap->Q=1.01344e-14
+LATQ_X10->Cap->G=4.76581e-15
+LATQ_X10->Cap->G_b=5.33821e-15
+LATQ_X10->DriveRes->Q=206.818
+LATQ_X10->Delay->D_to_Q=2.40343e-11
+LATQ_X10->Delay->G_to_Q=2.12725e-11
+ModelGen::createStdCell -> OR2
+=== OR2_X10 ===
+OR2_X10->ActiveArea=8.8e-12
+OR2_X10->Leakage->!A!B=5.33845e-06
+OR2_X10->Leakage->!AB=3.47128e-06
+OR2_X10->Leakage->A!B=3.94102e-06
+OR2_X10->Leakage->AB=2.86355e-06
+OR2_X10->Cap->A_Cap=8.29714e-15
+OR2_X10->Cap->B_Cap=8.29714e-15
+OR2_X10->Cap->Y_b_Cap=2.61561e-14
+OR2_X10->Cap->Y_Cap=1.01344e-14
+OR2_X10->DriveRes->Y=206.818
+OR2_X10->Delay->A_to_Y=9.09872e-12
+OR2_X10->Delay->B_to_Y=9.09872e-12
+ModelGen::createStdCell -> AND2
+=== AND2_X10 ===
+AND2_X10->ActiveArea=7.392e-12
+AND2_X10->Leakage->!A!B=3.76783e-06
+AND2_X10->Leakage->!AB=3.76783e-06
+AND2_X10->Leakage->A!B=3.76783e-06
+AND2_X10->Leakage->AB=3.22736e-06
+AND2_X10->Cap->A=6.28571e-15
+AND2_X10->Cap->B=6.28571e-15
+AND2_X10->Cap->Y=2.27058e-14
+AND2_X10->Cap->Y=1.01344e-14
+AND2_X10->DriveRes->Y=206.818
+AND2_X10->Delay->A_to_Y=9.88868e-12
+AND2_X10->Delay->B_to_Y=9.88868e-12
+ModelGen::createStdCell -> INV
+=== INV_X12 ===
+INV_X12->Area->Active=4.576e-12
+INV_X12->Area->Metal1Wire=4.576e-12
+INV_X12->Leakage->!A=3.01426e-06
+INV_X12->Leakage->A=2.18617e-06
+INV_X12->Cap->A=1.50857e-14
+INV_X12->Cap->Y=1.21612e-14
+INV_X12->DriveRes->Y=172.348
+INV_X12->Delay->A_to_Y=1.45251e-12
+ModelGen::createStdCell -> NAND2
+=== NAND2_X12 ===
+NAND2_X12->Area->Active=8.8e-12
+NAND2_X12->Leakage->!A!B=3.01426e-06
+NAND2_X12->Leakage->!AB=3.01426e-06
+NAND2_X12->Leakage->A!B=3.01426e-06
+NAND2_X12->Leakage->AB=3.37332e-06
+NAND2_X12->Cap->A=1.50857e-14
+NAND2_X12->Cap->B=1.50857e-14
+NAND2_X12->Cap->Y=2.43225e-14
+NAND2_X12->DriveRes->Y=223.39
+NAND2_X12->Delay->A_to_Y=3.76535e-12
+NAND2_X12->Delay->B_to_Y=3.76535e-12
+ModelGen::createStdCell -> NOR2
+=== NOR2_X12 ===
+NOR2_X12->ActiveArea=8.8e-12
+NOR2_X12->Leakage->!A!B=6.02853e-06
+NOR2_X12->Leakage->!AB=1.74434e-06
+NOR2_X12->Leakage->A!B=2.59842e-06
+NOR2_X12->Leakage->AB=6.02853e-07
+NOR2_X12->Cap->A_Cap=1.50857e-14
+NOR2_X12->Cap->B_Cap=1.50857e-14
+NOR2_X12->Cap->Y_Cap=2.43225e-14
+NOR2_X12->DriveRes->Y=232.008
+NOR2_X12->Delay->A_to_Y=3.9106e-12
+NOR2_X12->Delay->B_to_Y=3.9106e-12
+ModelGen::createStdCell -> MUX2
+=== MUX2_X12 ===
+MUX2_X12->ActiveArea=1.408e-11
+MUX2_X12->Leakage->!A!B!S0=5.954e-06
+MUX2_X12->Leakage->!A!BS0=5.74697e-06
+MUX2_X12->Leakage->!AB!S0=5.954e-06
+MUX2_X12->Leakage->!ABS0=5.34063e-06
+MUX2_X12->Leakage->A!B!S0=5.54765e-06
+MUX2_X12->Leakage->A!BS0=6.57506e-06
+MUX2_X12->Leakage->AB!S0=3.74903e-06
+MUX2_X12->Leakage->ABS0=3.74903e-06
+MUX2_X12->Cap->A=7.54286e-15
+MUX2_X12->Cap->B=7.54286e-15
+MUX2_X12->Cap->S0=1.13143e-14
+MUX2_X12->Cap->S0_b=1.05832e-14
+MUX2_X12->Cap->Y_b=3.94082e-14
+MUX2_X12->Cap->Y=1.21612e-14
+MUX2_X12->DriveRes->Y=172.348
+MUX2_X12->Delay->A_to_Y=1.69126e-11
+MUX2_X12->Delay->B_to_Y=1.69126e-11
+MUX2_X12->Delay->S0_to_Y=2.19687e-11
+ModelGen::createStdCell -> XOR2
+=== XOR2_X12 ===
+XOR2_X12->ActiveArea=2.1472e-11
+XOR2_X12->Leakage->!A!B=6.5739e-06
+XOR2_X12->Leakage->!AB=8.62873e-06
+XOR2_X12->Leakage->A!B=8.62873e-06
+XOR2_X12->Leakage->AB=5.7458e-06
+XOR2_X12->Cap->A=2.26286e-14
+XOR2_X12->Cap->B=2.26286e-14
+XOR2_X12->Cap->A=2.11663e-14
+XOR2_X12->Cap->B=2.11663e-14
+XOR2_X12->Cap->Y=4.8645e-14
+XOR2_X12->DriveRes->Y=283.049
+XOR2_X12->Delay->A_to_Y=1.4598e-11
+XOR2_X12->Delay->B_to_Y=1.4598e-11
+ModelGen::createStdCell -> ADDF
+=== ADDF_X12 ===
+ADDF_X12->Area->Active=3.52e-11
+ADDF_X12->Area->Metal1Wire=3.52e-11
+ADDF_X12->Leakage->!A!B!CI=1.28251e-05
+ADDF_X12->Leakage->!A!BCI=1.38526e-05
+ADDF_X12->Leakage->!AB!CI=1.40557e-05
+ADDF_X12->Leakage->!ABCI=1.24347e-05
+ADDF_X12->Leakage->A!B!CI=1.40557e-05
+ADDF_X12->Leakage->A!BCI=1.24347e-05
+ADDF_X12->Leakage->AB!CI=1.22316e-05
+ADDF_X12->Leakage->ABCI=1.3259e-05
+ADDF_X12->Cap->A=1.50857e-14
+ADDF_X12->Cap->B=1.50857e-14
+ADDF_X12->Cap->CI=1.88571e-14
+ADDF_X12->Cap->A_b=6.81174e-15
+ADDF_X12->Cap->B_b=6.81174e-15
+ADDF_X12->Cap->CI_b=1.05832e-14
+ADDF_X12->Cap->P=3.47898e-14
+ADDF_X12->Cap->P_b=1.36235e-14
+ADDF_X12->Cap->S=2.43225e-14
+ADDF_X12->Cap->CP=2.7247e-14
+ADDF_X12->Cap->G=2.7247e-14
+ADDF_X12->Cap->CO=2.43225e-14
+ADDF_X12->DriveRes->S=566.098
+ADDF_X12->DriveRes->CO=223.39
+ADDF_X12->Delay->A_to_S=4.3347e-11
+ADDF_X12->Delay->B_to_S=4.3347e-11
+ADDF_X12->Delay->CI_to_S=1.4598e-11
+ADDF_X12->Delay->A_to_CO=4.27524e-11
+ADDF_X12->Delay->B_to_CO=4.27524e-11
+ADDF_X12->Delay->CI_to_CO=1.22015e-11
+ModelGen::createStdCell -> DFFQ
+=== DFFQ_X12 ===
+DFFQ_X12->Area->Active=2.0768e-11
+DFFQ_X12->Area->Metal1Wire=2.0768e-11
+DFFQ_X12->Leakage->!D!CK!Q=7.63438e-06
+DFFQ_X12->Leakage->!D!CKQ=9.41595e-06
+DFFQ_X12->Leakage->!DCK!Q=7.63438e-06
+DFFQ_X12->Leakage->!DCKQ=9.99508e-06
+DFFQ_X12->Leakage->D!CK!Q=8.74791e-06
+DFFQ_X12->Leakage->D!CKQ=9.76598e-06
+DFFQ_X12->Leakage->DCK!Q=8.16877e-06
+DFFQ_X12->Leakage->DCKQ=9.76598e-06
+DFFQ_X12->Cap->D=1.88571e-15
+DFFQ_X12->Cap->D_b=9.19259e-15
+DFFQ_X12->Cap->M_b=2.13538e-14
+DFFQ_X12->Cap->M=1.45663e-14
+DFFQ_X12->Cap->M_i=2.13538e-14
+DFFQ_X12->Cap->Q_b=2.21092e-14
+DFFQ_X12->Cap->Q=1.21612e-14
+DFFQ_X12->Cap->CK=1.88571e-15
+DFFQ_X12->Cap->CK_b=1.20212e-14
+DFFQ_X12->Cap->CK_i=1.01354e-14
+DFFQ_X12->DriveRes->Q=172.348
+DFFQ_X12->Delay->D_Setup=2.06403e-11
+DFFQ_X12->Delay->CK_to_Q=3.62817e-11
+ModelGen::createStdCell -> LATQ
+=== LATQ_X12 ===
+LATQ_X12->Area->Active=1.3024e-11
+LATQ_X12->Area->Metal1Wire=1.3024e-11
+LATQ_X12->Leakage->!D!G!Q=5.08884e-06
+LATQ_X12->Leakage->!D!GQ=7.28446e-06
+LATQ_X12->Leakage->!DG!Q=5.23408e-06
+LATQ_X12->Leakage->D!G!Q=5.20919e-06
+LATQ_X12->Leakage->D!GQ=6.64131e-06
+LATQ_X12->Leakage->DGQ=6.4122e-06
+LATQ_X12->Cap->D=1.88571e-15
+LATQ_X12->Cap->D_b=9.19259e-15
+LATQ_X12->Cap->Q_i=2.13538e-14
+LATQ_X12->Cap->Q_b=2.21092e-14
+LATQ_X12->Cap->Q=1.21612e-14
+LATQ_X12->Cap->G=5.71897e-15
+LATQ_X12->Cap->G_b=6.30219e-15
+LATQ_X12->DriveRes->Q=172.348
+LATQ_X12->Delay->D_to_Q=2.38946e-11
+LATQ_X12->Delay->G_to_Q=2.11328e-11
+ModelGen::createStdCell -> OR2
+=== OR2_X12 ===
+OR2_X12->ActiveArea=1.0208e-11
+OR2_X12->Leakage->!A!B=6.20519e-06
+OR2_X12->Leakage->!AB=4.16553e-06
+OR2_X12->Leakage->A!B=4.72922e-06
+OR2_X12->Leakage->AB=3.41616e-06
+OR2_X12->Cap->A_Cap=9.95657e-15
+OR2_X12->Cap->B_Cap=9.95657e-15
+OR2_X12->Cap->Y_b_Cap=3.118e-14
+OR2_X12->Cap->Y_Cap=1.21612e-14
+OR2_X12->DriveRes->Y=172.348
+OR2_X12->Delay->A_to_Y=9.04821e-12
+OR2_X12->Delay->B_to_Y=9.04821e-12
+ModelGen::createStdCell -> AND2
+=== AND2_X12 ===
+AND2_X12->ActiveArea=8.8e-12
+AND2_X12->Leakage->!A!B=4.52139e-06
+AND2_X12->Leakage->!AB=4.52139e-06
+AND2_X12->Leakage->A!B=4.52139e-06
+AND2_X12->Leakage->AB=3.87283e-06
+AND2_X12->Cap->A=7.54286e-15
+AND2_X12->Cap->B=7.54286e-15
+AND2_X12->Cap->Y=2.7247e-14
+AND2_X12->Cap->Y=1.21612e-14
+AND2_X12->DriveRes->Y=172.348
+AND2_X12->Delay->A_to_Y=9.88868e-12
+AND2_X12->Delay->B_to_Y=9.88868e-12
+ModelGen::createStdCell -> INV
+=== INV_X16 ===
+INV_X16->Area->Active=5.984e-12
+INV_X16->Area->Metal1Wire=5.984e-12
+INV_X16->Leakage->!A=4.01902e-06
+INV_X16->Leakage->A=2.91489e-06
+INV_X16->Cap->A=2.01143e-14
+INV_X16->Cap->Y=1.6215e-14
+INV_X16->DriveRes->Y=129.261
+INV_X16->Delay->A_to_Y=1.45251e-12
+ModelGen::createStdCell -> NAND2
+=== NAND2_X16 ===
+NAND2_X16->Area->Active=1.1616e-11
+NAND2_X16->Leakage->!A!B=4.01902e-06
+NAND2_X16->Leakage->!AB=4.01902e-06
+NAND2_X16->Leakage->A!B=4.01902e-06
+NAND2_X16->Leakage->AB=4.49776e-06
+NAND2_X16->Cap->A=2.01143e-14
+NAND2_X16->Cap->B=2.01143e-14
+NAND2_X16->Cap->Y=3.243e-14
+NAND2_X16->DriveRes->Y=167.543
+NAND2_X16->Delay->A_to_Y=3.76535e-12
+NAND2_X16->Delay->B_to_Y=3.76535e-12
+ModelGen::createStdCell -> NOR2
+=== NOR2_X16 ===
+NOR2_X16->ActiveArea=1.1616e-11
+NOR2_X16->Leakage->!A!B=8.03804e-06
+NOR2_X16->Leakage->!AB=2.32579e-06
+NOR2_X16->Leakage->A!B=3.46456e-06
+NOR2_X16->Leakage->AB=8.03804e-07
+NOR2_X16->Cap->A_Cap=2.01143e-14
+NOR2_X16->Cap->B_Cap=2.01143e-14
+NOR2_X16->Cap->Y_Cap=3.243e-14
+NOR2_X16->DriveRes->Y=174.006
+NOR2_X16->Delay->A_to_Y=3.9106e-12
+NOR2_X16->Delay->B_to_Y=3.9106e-12
+ModelGen::createStdCell -> MUX2
+=== MUX2_X16 ===
+MUX2_X16->ActiveArea=1.8656e-11
+MUX2_X16->Leakage->!A!B!S0=7.93866e-06
+MUX2_X16->Leakage->!A!BS0=7.66263e-06
+MUX2_X16->Leakage->!AB!S0=7.93866e-06
+MUX2_X16->Leakage->!ABS0=7.12084e-06
+MUX2_X16->Leakage->A!B!S0=7.39686e-06
+MUX2_X16->Leakage->A!BS0=8.76676e-06
+MUX2_X16->Leakage->AB!S0=4.99871e-06
+MUX2_X16->Leakage->ABS0=4.99871e-06
+MUX2_X16->Cap->A=1.00571e-14
+MUX2_X16->Cap->B=1.00571e-14
+MUX2_X16->Cap->S0=1.50857e-14
+MUX2_X16->Cap->S0_b=1.41109e-14
+MUX2_X16->Cap->Y_b=5.25443e-14
+MUX2_X16->Cap->Y=1.6215e-14
+MUX2_X16->DriveRes->Y=129.261
+MUX2_X16->Delay->A_to_Y=1.69126e-11
+MUX2_X16->Delay->B_to_Y=1.69126e-11
+MUX2_X16->Delay->S0_to_Y=2.19687e-11
+ModelGen::createStdCell -> XOR2
+=== XOR2_X16 ===
+XOR2_X16->ActiveArea=2.8512e-11
+XOR2_X16->Leakage->!A!B=8.76521e-06
+XOR2_X16->Leakage->!AB=1.1505e-05
+XOR2_X16->Leakage->A!B=1.1505e-05
+XOR2_X16->Leakage->AB=7.66109e-06
+XOR2_X16->Cap->A=3.01714e-14
+XOR2_X16->Cap->B=3.01714e-14
+XOR2_X16->Cap->A=2.82218e-14
+XOR2_X16->Cap->B=2.82218e-14
+XOR2_X16->Cap->Y=6.486e-14
+XOR2_X16->DriveRes->Y=212.287
+XOR2_X16->Delay->A_to_Y=1.4598e-11
+XOR2_X16->Delay->B_to_Y=1.4598e-11
+ModelGen::createStdCell -> ADDF
+=== ADDF_X16 ===
+ADDF_X16->Area->Active=4.6816e-11
+ADDF_X16->Area->Metal1Wire=4.6816e-11
+ADDF_X16->Leakage->!A!B!CI=1.71002e-05
+ADDF_X16->Leakage->!A!BCI=1.84701e-05
+ADDF_X16->Leakage->!AB!CI=1.8741e-05
+ADDF_X16->Leakage->!ABCI=1.65796e-05
+ADDF_X16->Leakage->A!B!CI=1.8741e-05
+ADDF_X16->Leakage->A!BCI=1.65796e-05
+ADDF_X16->Leakage->AB!CI=1.63088e-05
+ADDF_X16->Leakage->ABCI=1.76787e-05
+ADDF_X16->Cap->A=2.01143e-14
+ADDF_X16->Cap->B=2.01143e-14
+ADDF_X16->Cap->CI=2.51429e-14
+ADDF_X16->Cap->A_b=9.08232e-15
+ADDF_X16->Cap->B_b=9.08232e-15
+ADDF_X16->Cap->CI_b=1.41109e-14
+ADDF_X16->Cap->P=4.63864e-14
+ADDF_X16->Cap->P_b=1.81646e-14
+ADDF_X16->Cap->S=3.243e-14
+ADDF_X16->Cap->CP=3.63293e-14
+ADDF_X16->Cap->G=3.63293e-14
+ADDF_X16->Cap->CO=3.243e-14
+ADDF_X16->DriveRes->S=424.574
+ADDF_X16->DriveRes->CO=167.543
+ADDF_X16->Delay->A_to_S=4.3347e-11
+ADDF_X16->Delay->B_to_S=4.3347e-11
+ADDF_X16->Delay->CI_to_S=1.4598e-11
+ADDF_X16->Delay->A_to_CO=4.27524e-11
+ADDF_X16->Delay->B_to_CO=4.27524e-11
+ADDF_X16->Delay->CI_to_CO=1.22015e-11
+ModelGen::createStdCell -> DFFQ
+=== DFFQ_X16 ===
+DFFQ_X16->Area->Active=2.64e-11
+DFFQ_X16->Area->Metal1Wire=2.64e-11
+DFFQ_X16->Leakage->!D!CK!Q=9.82751e-06
+DFFQ_X16->Leakage->!D!CKQ=1.21192e-05
+DFFQ_X16->Leakage->!DCK!Q=9.82751e-06
+DFFQ_X16->Leakage->!DCKQ=1.28244e-05
+DFFQ_X16->Leakage->D!CK!Q=1.14127e-05
+DFFQ_X16->Leakage->D!CKQ=1.26864e-05
+DFFQ_X16->Leakage->DCK!Q=1.07075e-05
+DFFQ_X16->Leakage->DCKQ=1.26864e-05
+DFFQ_X16->Cap->D=2.51429e-15
+DFFQ_X16->Cap->D_b=1.2084e-14
+DFFQ_X16->Cap->M_b=2.8299e-14
+DFFQ_X16->Cap->M=1.94218e-14
+DFFQ_X16->Cap->M_i=2.8299e-14
+DFFQ_X16->Cap->Q_b=2.94789e-14
+DFFQ_X16->Cap->Q=1.6215e-14
+DFFQ_X16->Cap->CK=2.51429e-15
+DFFQ_X16->Cap->CK_b=1.58554e-14
+DFFQ_X16->Cap->CK_i=1.33412e-14
+DFFQ_X16->DriveRes->Q=129.261
+DFFQ_X16->Delay->D_Setup=2.04657e-11
+DFFQ_X16->Delay->CK_to_Q=3.59833e-11
+ModelGen::createStdCell -> LATQ
+=== LATQ_X16 ===
+LATQ_X16->Area->Active=1.6544e-11
+LATQ_X16->Area->Metal1Wire=1.6544e-11
+LATQ_X16->Leakage->!D!G!Q=6.45021e-06
+LATQ_X16->Leakage->!D!GQ=9.29398e-06
+LATQ_X16->Leakage->!DG!Q=6.79457e-06
+LATQ_X16->Leakage->D!G!Q=6.77813e-06
+LATQ_X16->Leakage->D!GQ=8.60391e-06
+LATQ_X16->Leakage->DGQ=8.46589e-06
+LATQ_X16->Cap->D=2.51429e-15
+LATQ_X16->Cap->D_b=1.2084e-14
+LATQ_X16->Cap->Q_i=2.8299e-14
+LATQ_X16->Cap->Q_b=2.94789e-14
+LATQ_X16->Cap->Q=1.6215e-14
+LATQ_X16->Cap->G=7.62529e-15
+LATQ_X16->Cap->G_b=8.23015e-15
+LATQ_X16->DriveRes->Q=129.261
+LATQ_X16->Delay->D_to_Q=2.372e-11
+LATQ_X16->Delay->G_to_Q=2.09582e-11
+ModelGen::createStdCell -> OR2
+=== OR2_X16 ===
+OR2_X16->ActiveArea=1.3728e-11
+OR2_X16->Leakage->!A!B=8.44104e-06
+OR2_X16->Leakage->!AB=5.55404e-06
+OR2_X16->Leakage->A!B=6.30563e-06
+OR2_X16->Leakage->AB=4.57163e-06
+OR2_X16->Cap->A_Cap=1.32754e-14
+OR2_X16->Cap->B_Cap=1.32754e-14
+OR2_X16->Cap->Y_b_Cap=4.17461e-14
+OR2_X16->Cap->Y_Cap=1.6215e-14
+OR2_X16->DriveRes->Y=129.261
+OR2_X16->Delay->A_to_Y=9.07978e-12
+OR2_X16->Delay->B_to_Y=9.07978e-12
+ModelGen::createStdCell -> AND2
+=== AND2_X16 ===
+AND2_X16->ActiveArea=1.1616e-11
+AND2_X16->Leakage->!A!B=6.02853e-06
+AND2_X16->Leakage->!AB=6.02853e-06
+AND2_X16->Leakage->A!B=6.02853e-06
+AND2_X16->Leakage->AB=5.16377e-06
+AND2_X16->Cap->A=1.00571e-14
+AND2_X16->Cap->B=1.00571e-14
+AND2_X16->Cap->Y=3.63293e-14
+AND2_X16->Cap->Y=1.6215e-14
+AND2_X16->DriveRes->Y=129.261
+AND2_X16->Delay->A_to_Y=9.88868e-12
+AND2_X16->Delay->B_to_Y=9.88868e-12
+Standard cell library creation - End
+Config::constructTechModel - End
+ModelGen::createModel -> Router
+ModelGen::createRAM -> DFFRAM
+ModelGen::createStdCell -> DFFQ
+ModelGen::createStdCell -> DFFQ
+ModelGen::createStdCell -> DFFQ
+ModelGen::createStdCell -> DFFQ
+ModelGen::createStdCell -> DFFQ
+ModelGen::createStdCell -> DFFQ
+ModelGen::createStdCell -> DFFQ
+ModelGen::createStdCell -> DFFQ
+ModelGen::createStdCell -> DFFQ
+ModelGen::createStdCell -> DFFQ
+ModelGen::createStdCell -> DFFQ
+ModelGen::createStdCell -> DFFQ
+ModelGen::createStdCell -> DFFQ
+ModelGen::createStdCell -> DFFQ
+ModelGen::createStdCell -> DFFQ
+ModelGen::createStdCell -> DFFQ
+ModelGen::createStdCell -> DFFQ
+ModelGen::createStdCell -> DFFQ
+ModelGen::createStdCell -> DFFQ
+ModelGen::createStdCell -> DFFQ
+ModelGen::createStdCell -> DFFQ
+ModelGen::createStdCell -> DFFQ
+ModelGen::createStdCell -> DFFQ
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> NAND2
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> NAND2
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> NAND2
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> NAND2
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> NAND2
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> NAND2
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> NAND2
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> NAND2
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> NAND2
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> NAND2
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> NAND2
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> NAND2
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> NAND2
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> NAND2
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> NAND2
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> NAND2
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> NAND2
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> NAND2
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> NAND2
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> NAND2
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> NAND2
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> NAND2
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> NAND2
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> NAND2
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> NAND2
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> NAND2
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> NAND2
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> NAND2
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> NAND2
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> NAND2
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> NAND2
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> NAND2
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> NAND2
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> NAND2
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> NAND2
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> NAND2
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> NAND2
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> NAND2
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> MUX2
+ModelGen::createStdCell -> MUX2
+ModelGen::createStdCell -> MUX2
+ModelGen::createStdCell -> MUX2
+ModelGen::createStdCell -> MUX2
+ModelGen::createStdCell -> MUX2
+ModelGen::createStdCell -> MUX2
+ModelGen::createStdCell -> MUX2
+ModelGen::createStdCell -> MUX2
+ModelGen::createStdCell -> MUX2
+ModelGen::createStdCell -> MUX2
+ModelGen::createStdCell -> MUX2
+ModelGen::createStdCell -> MUX2
+ModelGen::createStdCell -> MUX2
+ModelGen::createStdCell -> MUX2
+ModelGen::createStdCell -> MUX2
+ModelGen::createStdCell -> MUX2
+ModelGen::createStdCell -> MUX2
+ModelGen::createStdCell -> MUX2
+ModelGen::createStdCell -> MUX2
+ModelGen::createStdCell -> MUX2
+ModelGen::createStdCell -> MUX2
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> NAND2
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> NAND2
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> NAND2
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> NAND2
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> NAND2
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> NAND2
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> NAND2
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> NAND2
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> NAND2
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> NAND2
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> NAND2
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> NAND2
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> NAND2
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> NAND2
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> NAND2
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> NAND2
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> NAND2
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> NAND2
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> NAND2
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> NAND2
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> NAND2
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> NAND2
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> NAND2
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> NAND2
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> DFFQ
+ModelGen::createStdCell -> DFFQ
+ModelGen::createStdCell -> DFFQ
+ModelGen::createStdCell -> DFFQ
+ModelGen::createStdCell -> DFFQ
+ModelGen::createStdCell -> DFFQ
+ModelGen::createStdCell -> DFFQ
+ModelGen::createStdCell -> DFFQ
+ModelGen::createStdCell -> DFFQ
+ModelGen::createStdCell -> DFFQ
+ModelGen::createModel -> MatrixArbiter
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> AND2
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> AND2
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> AND2
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> AND2
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> AND2
+ModelGen::createStdCell -> OR2
+ModelGen::createStdCell -> AND2
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> DFFQ
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> AND2
+ModelGen::createStdCell -> AND2
+ModelGen::createStdCell -> OR2
+ModelGen::createStdCell -> AND2
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> DFFQ
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> AND2
+ModelGen::createStdCell -> AND2
+ModelGen::createStdCell -> OR2
+ModelGen::createStdCell -> AND2
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> DFFQ
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> AND2
+ModelGen::createStdCell -> AND2
+ModelGen::createStdCell -> OR2
+ModelGen::createStdCell -> AND2
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> DFFQ
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> AND2
+ModelGen::createStdCell -> AND2
+ModelGen::createStdCell -> OR2
+ModelGen::createStdCell -> AND2
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> DFFQ
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> AND2
+ModelGen::createStdCell -> AND2
+ModelGen::createStdCell -> OR2
+ModelGen::createStdCell -> AND2
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> DFFQ
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> AND2
+ModelGen::createStdCell -> AND2
+ModelGen::createStdCell -> OR2
+ModelGen::createStdCell -> AND2
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> DFFQ
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> AND2
+ModelGen::createStdCell -> AND2
+ModelGen::createStdCell -> OR2
+ModelGen::createStdCell -> AND2
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> DFFQ
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> AND2
+ModelGen::createStdCell -> AND2
+ModelGen::createStdCell -> OR2
+ModelGen::createStdCell -> AND2
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> DFFQ
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> AND2
+ModelGen::createStdCell -> AND2
+ModelGen::createStdCell -> OR2
+ModelGen::createStdCell -> AND2
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> DFFQ
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> AND2
+ModelGen::createStdCell -> AND2
+ModelGen::createModel -> OR
+ModelGen::createStdCell -> OR2
+ModelGen::createStdCell -> OR2
+ModelGen::createStdCell -> OR2
+ModelGen::createModel -> OR
+ModelGen::createStdCell -> OR2
+ModelGen::createStdCell -> OR2
+ModelGen::createStdCell -> OR2
+ModelGen::createModel -> OR
+ModelGen::createStdCell -> OR2
+ModelGen::createStdCell -> OR2
+ModelGen::createStdCell -> OR2
+ModelGen::createModel -> OR
+ModelGen::createStdCell -> OR2
+ModelGen::createStdCell -> OR2
+ModelGen::createStdCell -> OR2
+ModelGen::createModel -> OR
+ModelGen::createStdCell -> OR2
+ModelGen::createStdCell -> OR2
+ModelGen::createStdCell -> OR2
+ModelGen::createStdCell -> DFFQ
+ModelGen::createStdCell -> DFFQ
+ModelGen::createStdCell -> DFFQ
+ModelGen::createStdCell -> DFFQ
+ModelGen::createStdCell -> DFFQ
+ModelGen::createModel -> MatrixArbiter
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> AND2
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> AND2
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> AND2
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> AND2
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> AND2
+ModelGen::createStdCell -> OR2
+ModelGen::createStdCell -> AND2
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> DFFQ
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> AND2
+ModelGen::createStdCell -> AND2
+ModelGen::createStdCell -> OR2
+ModelGen::createStdCell -> AND2
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> DFFQ
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> AND2
+ModelGen::createStdCell -> AND2
+ModelGen::createStdCell -> OR2
+ModelGen::createStdCell -> AND2
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> DFFQ
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> AND2
+ModelGen::createStdCell -> AND2
+ModelGen::createStdCell -> OR2
+ModelGen::createStdCell -> AND2
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> DFFQ
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> AND2
+ModelGen::createStdCell -> AND2
+ModelGen::createStdCell -> OR2
+ModelGen::createStdCell -> AND2
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> DFFQ
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> AND2
+ModelGen::createStdCell -> AND2
+ModelGen::createStdCell -> OR2
+ModelGen::createStdCell -> AND2
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> DFFQ
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> AND2
+ModelGen::createStdCell -> AND2
+ModelGen::createStdCell -> OR2
+ModelGen::createStdCell -> AND2
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> DFFQ
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> AND2
+ModelGen::createStdCell -> AND2
+ModelGen::createStdCell -> OR2
+ModelGen::createStdCell -> AND2
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> DFFQ
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> AND2
+ModelGen::createStdCell -> AND2
+ModelGen::createStdCell -> OR2
+ModelGen::createStdCell -> AND2
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> DFFQ
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> AND2
+ModelGen::createStdCell -> AND2
+ModelGen::createStdCell -> OR2
+ModelGen::createStdCell -> AND2
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> DFFQ
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> AND2
+ModelGen::createStdCell -> AND2
+ModelGen::createModel -> OR
+ModelGen::createStdCell -> OR2
+ModelGen::createStdCell -> OR2
+ModelGen::createStdCell -> OR2
+ModelGen::createModel -> OR
+ModelGen::createStdCell -> OR2
+ModelGen::createStdCell -> OR2
+ModelGen::createStdCell -> OR2
+ModelGen::createModel -> OR
+ModelGen::createStdCell -> OR2
+ModelGen::createStdCell -> OR2
+ModelGen::createStdCell -> OR2
+ModelGen::createModel -> OR
+ModelGen::createStdCell -> OR2
+ModelGen::createStdCell -> OR2
+ModelGen::createStdCell -> OR2
+ModelGen::createModel -> OR
+ModelGen::createStdCell -> OR2
+ModelGen::createStdCell -> OR2
+ModelGen::createStdCell -> OR2
+ModelGen::createCrossbar -> MultiplexerCrossbar
+ModelGen::createStdCell -> MUX2
+ModelGen::createStdCell -> MUX2
+ModelGen::createStdCell -> MUX2
+ModelGen::createStdCell -> MUX2
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> MUX2
+ModelGen::createStdCell -> MUX2
+ModelGen::createStdCell -> MUX2
+ModelGen::createStdCell -> MUX2
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> MUX2
+ModelGen::createStdCell -> MUX2
+ModelGen::createStdCell -> MUX2
+ModelGen::createStdCell -> MUX2
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> MUX2
+ModelGen::createStdCell -> MUX2
+ModelGen::createStdCell -> MUX2
+ModelGen::createStdCell -> MUX2
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> MUX2
+ModelGen::createStdCell -> MUX2
+ModelGen::createStdCell -> MUX2
+ModelGen::createStdCell -> MUX2
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> DFFQ
+ModelGen::createModel -> BroadcastHTree
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> DFFQ
+ModelGen::createStdCell -> DFFQ
+ModelGen::createStdCell -> DFFQ
+ModelGen::createStdCell -> DFFQ
+ModelGen::createStdCell -> DFFQ
+ModelGen::createStdCell -> DFFQ
+ModelGen::createStdCell -> DFFQ
+ClockTree -> Beginning Repeater Insertion 0
+Repeater0 -> Changing drive strength to 1
+ClockTree -> Repeater Insertion 0 Ended after Iteration: 0: Required transition = 4e-11, Transition = 1.25678e-11, Slack = 2.74322e-11, Number of repeaters = 1
+ClockTree -> Beginning Repeater Insertion 1
+Repeater1 -> Changing drive strength to 1
+ClockTree -> Repeater Insertion 1 Ended after Iteration: 0: Required transition = 4e-11, Transition = 8.0147e-12, Slack = 3.19853e-11, Number of repeaters = 1
+ClockTree -> Beginning Repeater Insertion 2
+Repeater2 -> Changing drive strength to 1
+ClockTree -> Repeater Insertion 2 Ended after Iteration: 0: Required transition = 4e-11, Transition = 5.79141e-12, Slack = 3.42086e-11, Number of repeaters = 1
+ClockTree -> Beginning Repeater Insertion 3
+Repeater3 -> Changing drive strength to 1
+ClockTree -> Repeater Insertion 3 Ended after Iteration: 0: Required transition = 4e-11, Transition = 4.69307e-12, Slack = 3.53069e-11, Number of repeaters = 1
+ClockTree -> Beginning Repeater Insertion 4
+Repeater4 -> Changing drive strength to 1
+ClockTree -> Repeater Insertion 4 Ended after Iteration: 0: Required transition = 4e-11, Transition = 4.14723e-12, Slack = 3.58528e-11, Number of repeaters = 1
+ModelGen::createStdCell -> INV
+LeafHeadDriver -> Changing drive strength to 1
+ModelGen::createStdCell -> INV
+LeafDriver0 -> Changing drive strength to 1
+ClockTree -> Buffer Insertion : 0: Required transition = 4e-11, Transition = 5.62939e-11, Slack = -1.62939e-11, Number of buffers = 1
+LeafDriver0 -> Changing drive strength to 1.4
+LeafDriver0 -> Changing drive strength to 2
+ClockTree -> Buffer Insertion Ended after Iteration: 2, Number of buffers = 1
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> INV
+ModelGen::createStdCell -> INV
+Optimizing net: CK
+Optimizer -> Beginning Incremental Timing Optimization
+Optimizer -> Timing Optimization Ended after Iteration: 0: Required delay = 1e-09, Delay = 7.67932e-10, Slack = 2.32068e-10
+Optimizing net: FlitIn0
+Optimizer -> Beginning Incremental Timing Optimization
+Optimizer -> Timing Optimization Ended after Iteration: 0: Required delay = 1e-09, Delay = 2.89858e-11, Slack = 9.71014e-10
+Optimizing net: FlitIn1
+Optimizer -> Beginning Incremental Timing Optimization
+Optimizer -> Timing Optimization Ended after Iteration: 0: Required delay = 1e-09, Delay = 2.89858e-11, Slack = 9.71014e-10
+Optimizing net: FlitIn2
+Optimizer -> Beginning Incremental Timing Optimization
+Optimizer -> Timing Optimization Ended after Iteration: 0: Required delay = 1e-09, Delay = 2.89858e-11, Slack = 9.71014e-10
+Optimizing net: FlitIn3
+Optimizer -> Beginning Incremental Timing Optimization
+Optimizer -> Timing Optimization Ended after Iteration: 0: Required delay = 1e-09, Delay = 2.89858e-11, Slack = 9.71014e-10
+Optimizing net: FlitIn4
+Optimizer -> Beginning Incremental Timing Optimization
+Optimizer -> Timing Optimization Ended after Iteration: 0: Required delay = 1e-09, Delay = 2.89858e-11, Slack = 9.71014e-10
+Optimizing net: CK
+Optimizing net: FlitIn0
+Optimizing net: FlitIn1
+Optimizing net: FlitIn2
+Optimizing net: FlitIn3
+Optimizing net: FlitIn4
+Config::release
+Config::release - End
